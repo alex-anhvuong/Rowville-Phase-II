@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+body {
+  /* background-color: #255197;
+  color: white; */
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25pt;
+}
+
+.step-and-number {
+  /* color: #0e1111; */
+  font-family: 'Bitter', serif;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+.step-title {
+  /* color: #0e1111; */
+  font-family: 'Bitter', serif;
+  font-size: 1.5em;
+  margin: 25px 0 50px;
+  text-align: center;
+}
+
+#mainContainerDiv {
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.click_below {
+  text-decoration: underline;
+}
+
+.low_spaces_para {
+  margin: 0;
+}
+
+/*.video_class {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.videoLink {
+  width: 60%;
+  height: 350px;
+}*/
+
+iframe {
+  border: 10px solid black;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 50px;
+  width: 90%;
+  height: 500px;
+}
+
+a {
+  word-break: break-all;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+span {
+  margin-bottom: 50px;
+}
+
+ol, ul {
+  margin: 0px 10px 50px;
+  border-radius: 10px;
+  background-color: gray;
+}
+
+li {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  iframe {
+    border: 10px solid black;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 50px;
+    width: 90%;
+    height: 200px;
+  }
+}
+
+

@@ -1,0 +1,54 @@
+.topnavlogo{
+
+}
+#homeBtn{
+    float:left;
+}
+.logoImg{
+    width: 60vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0 15px 15px 15px;
+}
+#stepsMenuBtn{
+    float:Right;
+}
+#navbar-header{
+    display: grid;
+    border-style: 1px solid white;
+    background-color: #255197;
+    margin: 0;
+}
+
+.topnav{
+
+    width:100%;
+}
+
+img{
+
+}
+.btnClass{
+    float: center;
+}
+
+.topnavDiv{
+    background-color: #255197;
+}
+.homeDiv, .StepsDiv{
+    display: inline-block;
+    color:white;
+    text-align: center;
+    border: 1px solid grey;
+    width: 45%;
+}
+.homeLink{
+    color:Black;
+    text-decoration: none;
+
+}
+.stepsLink{
+    color:Black;
+    text-decoration: none;
+}

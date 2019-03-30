@@ -1,0 +1,107 @@
+#steps-btn-div a:link,
+#steps-btn-div a:hover,
+#steps-btn-div a:visited,
+#steps-btn-div a:active {
+color: #fff;
+text-decoration: none;
+}
+
+#steps-btn-div a:hover {
+cursor: pointer;
+}
+/*
+body {
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+background: #fff;
+}*/
+
+#steps-btn-div { 
+
+width: 500px;
+overflow: visible;
+}
+
+
+
+.step-wrapper {
+width: 100%;
+display: inline-block;
+float: left;
+clear: both;
+}
+
+.step {
+position: relative;
+padding: 16px 32px 16px 32px;
+margin: 8px; 
+margin-left: 0px;
+box-shadow: 8px 0 8px -8px rgba(0, 0, 0, 0.5);
+background: #fff;
+}
+
+.step-content {
+display: inline-block;
+color: #fff;
+font-family: 'Droid Sans', sans-serif;
+font-size: 16px;
+font-weight: bold;
+white-space: nowrap;
+}
+
+.bg-0 { background: #255197; }
+.bg-1 { background: #255197; }
+.bg-2 { background: #255197; }
+.bg-3 { background: #255197; }
+.bg-4 { background: #255197; }
+.bg-5 { background: #255197; }
+.bg-6 { background: #255197; }
+.bg-7 { background: #255197; }
+.bg-8 { background: #255197; }
+.bg-9 { background: #255197; }
+.bg-10 { background: #255197; }
+.bg-11 { background: #255197; }
+
+
+@media screen and (orientation: portrait) {
+
+    @media screen and  (min-width: 330px) and (max-width: 600px) {
+        #steps-btn-div { 
+            width: 80%;
+            }
+        .step-content {
+            white-space: normal;
+        }
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 1024px){
+        #steps-btn-div { 
+            width: 80%;
+            }
+        .step-content {
+            white-space: normal;
+        }
+    } 
+}
+@media screen and (orientation: landscape) {
+
+    @media screen and  (min-width: 330px) and (max-width: 900px) {
+        #steps-btn-div { 
+            width: 80%;
+            }
+        .step-content {
+            white-space: normal;
+        }
+    }
+
+    @media screen and (min-width: 900px) and (max-width: 1024px){
+        #steps-btn-div { 
+            width: 80%;
+            }
+        .step-content {
+            white-space: normal;
+        }
+    } 
+}
