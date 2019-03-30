@@ -79,8 +79,8 @@ function loadStepsData(stepName, numberOfStep) {
             let paraTag = createElement (contentObj.tagType, "", "", contentObj.className);
             paraTag.src = contentData[k];
             paraTag.frameborder = "0";
-            paraTag.align = "middle";
-            paraTag.allow = "accelerometer";
+            paraTag.allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";
+            paraTag.setAttribute('allowfullscreen', '');
             divTag.appendChild(paraTag);
             levelDiv.appendChild (divTag);
             break;
