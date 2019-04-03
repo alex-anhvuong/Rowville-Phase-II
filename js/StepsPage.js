@@ -1,7 +1,8 @@
 
 let stepNameNav;
-
+let stepNumber;
 function loadStepsData(stepName, numberOfStep) {
+  stepNumber = numberOfStep;
   stepNameNav = stepName;
   let nextButton = createElement("button", "Next Button", "", "nextButtonClass");
   let previousButton = createElement("button", "Previous Button", "", "prevButtonClass");
@@ -10,12 +11,12 @@ function loadStepsData(stepName, numberOfStep) {
 
   //creates wrapper div for the level UI
   let levelDiv = createElement("div", "", "levelDiv", "");
-
+  levelDiv.appendChild(nextButton);
+  levelDiv.appendChild(previousButton);
 
   nextButton.onclick = function() {nextButtonAction()};
   previousButton.onclick = function() {previousButtonAction()};
-  levelDiv.appendChild(nextButton);
-  levelDiv.appendChild(previousButton);
+
 
   //  Create the heading: "Step {number}"
   let stepHeading = createElement("h1", "Step", "", "step-and-number");
@@ -106,115 +107,28 @@ function loadStepsData(stepName, numberOfStep) {
 
 function nextButtonAction() {
 
+  if (stepNumber == 12) return null
   document.getElementById("mainContainerDiv").innerHTML = '';
 
-  switch (stepNameNav) {
-    case "Step 1":
-      loadStepsData("Step 2", 2);
-      break;
 
-    case "Step 2":
-      loadStepsData("Step 3", 3);
-      break;
-
-    case "Step 3":
-      loadStepsData("Step 4", 4);
-      break;
-
-    case "Step 4":
-      loadStepsData("Step 5", 5);
-      break;
-
-    case "Step 5":
-      loadStepsData("Step 6", 6);
-      break;
-
-    case "Step 6":
-      loadStepsData("Step 7", 7);
-      break;
-
-    case "Step 7":
-      loadStepsData("Step 8", 8);
-      break;
-
-    case "Step 8":
-      loadStepsData("Step 9", 9);
-      break;
-
-    case "Step 9":
-      loadStepsData("Step 10", 10);
-      break;
-
-    case "Step 10":
-      loadStepsData("Step 11", 11);
-      break;
-
-    case "Step 11":
-      loadStepsData("Step 12", 12);
-      break;
-
-    default:
-      break;
-
-
-  }
+  let newStepNumber = stepNumber + 1;
+  let newStepName = "Step " + newStepNumber;
+  let navRoute = "step" + newStepNumber;
+  Router.navigate (navRoute);
+  loadStepsData(newStepName, newStepNumber);
 
 }
 
 function previousButtonAction() {
 
+  if (stepNumber == 1) return null
   document.getElementById("mainContainerDiv").innerHTML = '';
 
-  switch (stepNameNav) {
+  let newStepNumber = stepNumber - 1;
+  let newStepName = "Step " + newStepNumber;
 
-    case "Step 2":
-      loadStepsData("Step 1", 1);
-      break;
-
-    case "Step 3":
-      loadStepsData("Step 2", 2);
-      break;
-
-    case "Step 4":
-      loadStepsData("Step 3", 3);
-      break;
-
-    case "Step 5":
-      loadStepsData("Step 4", 4);
-      break;
-
-    case "Step 6":
-      loadStepsData("Step 5", 5);
-      break;
-
-    case "Step 7":
-      loadStepsData("Step 6", 6);
-      break;
-
-    case "Step 8":
-      loadStepsData("Step 7", 7);
-      break;
-
-    case "Step 9":
-      loadStepsData("Step 8", 8);
-      break;
-
-    case "Step 10":
-      loadStepsData("Step 9", 9);
-      break;
-
-    case "Step 11":
-      loadStepsData("Step 10", 10);
-      break;
-
-    case "Step 12":
-      loadStepsData("Step 11", 11);
-      break;
-
-    default:
-      break;
-
-
-  }
+  let navRoute = "step" + newStepNumber;
+  Router.navigate (navRoute);
+  loadStepsData(newStepName, newStepNumber);
 
 }
