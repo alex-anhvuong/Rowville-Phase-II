@@ -17,11 +17,20 @@
  height: 100%;
 } */
 
-#btnClass{
- margin: 10% auto;
- display: block;
- color: white;
- background-color: blue;
- text-align: center;
- font-size: 30pt;
+.btnClass{
+  background: #4aabe0;
+  background-image: -webkit-linear-gradient(top, #4aabe0, #3149bf);
+  background-image: -moz-linear-gradient(top, #4aabe0, #3149bf);
+  background-image: -ms-linear-gradient(top, #4aabe0, #3149bf);
+  background-image: -o-linear-gradient(top, #4aabe0, #3149bf);
+  background-image: linear-gradient(to bottom, #4aabe0, #3149bf);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  display: block;
+  font-size: 0.75em;
+  margin: 20px auto;
+  border-radius: 28px;
+  color: white;
+  padding: 15px 20px 15px 20px;
+  text-decoration: none;
  }
