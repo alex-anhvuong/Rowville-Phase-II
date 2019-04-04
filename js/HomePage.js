@@ -3,18 +3,23 @@ function onLoadHomepage() {
   document.getElementById("mainContainerDiv").innerHTML = "";
   let videoDiv = createElement("div", "", "introductionVideoDiv-HomePage", "");
 
-
+  let videoWrapper = createElement("p", "", "", "");
   var obj = {"video": {
     "value": "<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='https://www.youtube.com/embed/hc1Xq0hgFCs' frameborder='0' allowFullScreen></iframe>"
   }};
 
   $("#introductionVideoDiv-HomePage").html(obj.video.value);
-  document.getElementById("mainContainerDiv").appendChild(videoDiv);
 
+  videoWrapper.appendChild(videoDiv);
+  document.getElementById("mainContainerDiv").appendChild(videoWrapper);
   let introParaDiv = createElement("div", "", "introductionTextPara-HomePage", "");
 
   let clickToStartBtn = createElement("button", "Click to get started", "", "btnClass");
-  clickToStartBtn.onclick = function() {loadStepsData("Step 1", 1)};
+  clickToStartBtn.onclick = function() {
+    let navRoute = "?Steps=1";
+    window.history.pushState(null, null, navRoute);
+    loadStepsData("Step 1", 1)
+  };
 
 
   document.getElementById("introductionTextPara-HomePage").innerHTML = homePageContent;
@@ -28,13 +33,13 @@ function onClickStepsButton () {
   loadStepsContent ();
 }
 window.onpopstate = function() {
-  console.log(history.length);
+
  changeContentBasedOnURL ();
 
 }
 
 function changeContentBasedOnURL () {
-  console.log (headerLoaded);
+
   if (!headerLoaded) {
     drawHeader ();
   }
@@ -90,8 +95,6 @@ function changeContentBasedOnURL () {
       onLoadHomepage ();
     }
   } else {
-
-    console.log ("else");
     onLoadHomepage ();
   }
 
