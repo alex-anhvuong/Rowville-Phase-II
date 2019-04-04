@@ -1,54 +1,54 @@
-.topnavlogo{
-
-}
-#homeBtn{
-    float:left;
-}
-.logoImg{
-    width: 60vw;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    padding: 0 15px 15px 15px;
-}
-#stepsMenuBtn{
-    float:Right;
-}
 #navbar-header{
-    display: grid;
-    border-style: 1px solid white;
-    background-color: #255197;
-    margin: 0;
+}
+
+.topnavlogo{
+  background-color: #0277BD;
+  margin: auto;
+  padding: 35px 0;
+  text-align: center;
+}
+
+.logoImg{
+  width: 60vw;
 }
 
 .topnav{
-
-    width:100%;
+    width: 100%;
 }
 
-img{
-
-}
-.btnClass{
-    float: center;
-}
-
-.topnavDiv{
-    background-color: #255197;
-}
 .homeDiv, .StepsDiv{
+    background-color: #64B5F6;
     display: inline-block;
-    color:white;
+    box-sizing: border-box;
+    /* border-style: solid;
+    border-color: #255197; */
     text-align: center;
-    border: 1px solid grey;
-    width: 45%;
+    width: 50%;
 }
-.homeLink{
-    color:Black;
-    text-decoration: none;
 
+.homeDiv {
+  /* border-width: 5px 2.5px 5px 5px; */
+  border-right-width: 2.5px;
 }
-.stepsLink{
-    color:Black;
-    text-decoration: none;
+
+.StepsDiv {
+  /* border-width: 5px 5px 5px 2.5px; */
+  border-left-width: 2.5px;
+}
+
+.homeLink, .stepsLink {
+  display: inline-block;
+  color: white;
+  font-weight: 800;
+  margin: 15px 0;
+  width: 100%;
+  text-decoration: none;
+}
+
+.homeLink {
+  border-right: 2.5px solid #5f9aca;
+}
+
+.stepsLink {
+  border-left: 2.5px solid #5f9aca;
 }

@@ -17,11 +17,15 @@
  height: 100%;
 } */
 
-#btnClass{
- margin: 10% auto;
- display: block;
- color: white;
- background-color: blue;
- text-align: center;
- font-size: 30pt;
+.btnClass{
+  background-color: #0277BD;
+  border: none;
+  display: block;
+  font-size: 0.75em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  margin: 20px auto;
+  border-radius: 20px;
+  color: white;
+  padding: 30px 20px;
  }
