@@ -1,14 +1,17 @@
 
-//File variable declarations
-
 var container;
-
+/*-------- this function is called on stepsLink in header.
+It clears the mainContainer first, then calls another function for 
+displaying steps list.----------------------------------------*/
 function loadStepsContent () {
 
-
+ //clear the main container Div
   container = document.getElementById("mainContainerDiv");
   container.innerHTML = '';
-   
+  
+  /*call a function to create buttons for steps list on which step number
+   and Titles are displayed and these buttons have onclick events 
+   added to switch to corresponding Step content*/
   createDifferentStepsButtons ();
 
 }
@@ -23,13 +26,13 @@ function createDifferentStepsButtons () {
     //checks if level is active or not
     if (numberOfSteps[index].isActive) {
 
-      //creates a wrapper for each step
+      //creates a div for each step. Number of divs are created depending upon the length of StepsContent
 
       let stepWrapper = createElement("div", "", "", "step-wrapper")
 
 
 
-      //creates anchor
+      //creates anchor to add onclick event for calling selectNewStep function with an argument for step name
 
       let stepAnchor = createElement("a", "", "", "");
 
@@ -57,10 +60,10 @@ function createDifferentStepsButtons () {
 
       stepsButtonDiv.appendChild(stepWrapper);
       /*
-      //creates a button for each level with the level name as a label on the button
+      creates a button for each level with the level name as a label on the button
       let stepButton = createElement("button", numberOfSteps[index].name, "", "btnCustom");
 
-      //stepButton.classList.add('btnYellow');
+      stepButton.classList.add('btnYellow');
       stepButton.onclick = selectNewStep(numberOfSteps[index].name);
 
       stepsButtonDiv.appendChild(stepButton);
@@ -73,7 +76,7 @@ function createDifferentStepsButtons () {
   container.appendChild(stepsButtonDiv);
 
 }
-
+/* This function  uses switch statement to bind a function for each step in step list by determining it through step name . */
 function selectNewStep(stepName) {
   return function () {
     switch (stepName) {

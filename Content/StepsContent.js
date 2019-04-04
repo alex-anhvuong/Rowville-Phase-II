@@ -5,12 +5,14 @@ let homePageContent = "Have you got a business idea that you want to turn into a
 "in Victoria. We have also provided lots of quick links to watch some helpful videos, find out further " +
 "information and where to go for help and support along the way. To get started just press here.";
 
-
+/* This array contains all the data for content Page that is being displayed depending upon the flags. Nested objects are used for different types of content */
 let stepsContent = [
+  //First object that stores the content for Step 1 
   {
     title: "Getting Started",
     id: 0,
     stepName: "Step 1",
+    //contentList key stores values in the form of array and array elements are stored again in object form.
     contentList: [
       {
         isVideoLink: true,
@@ -165,6 +167,7 @@ let stepsContent = [
     ]
   },
   {
+    //Content stored for displaying for Step 2
     title: "Set up your business structure",
     id: 1,
     stepName: "Step 2",
@@ -237,6 +240,7 @@ let stepsContent = [
       },
     ]
   },
+  //content stored for step 3
   {
     title: "Apply for an ABN & Register your business name",
     id: 2,
@@ -418,6 +422,7 @@ let stepsContent = [
       },
     ]
   },
+  //content stored for Step 4
   {
     title: "Money and Finances",
     id: 4,
@@ -748,6 +753,7 @@ let stepsContent = [
       }
     ]
   },
+  //content stored for step 5
   {
   title: "Develop a business plan",
   id: 4,
@@ -903,6 +909,7 @@ let stepsContent = [
     }
   ]
   },
+  //content stored for step 6
   {
     title: "Organise your insurances & protections",
     id: 5,
@@ -1100,6 +1107,7 @@ let stepsContent = [
     ]
   },
   {
+    //content stored for step 7
     title: "Register a Domain name for a website",
     id: 6,
     stepName: "Step 7",
@@ -1252,6 +1260,7 @@ let stepsContent = [
       },
     ]
   },
+  //content stored for step 10
   {
   title: "Marketing & Advertising",
   id: 9,
@@ -1496,6 +1505,7 @@ let stepsContent = [
     },
   ]
   },
+  //content stored for step 11
   {
   title: "Get help & support",
   id: 10,
@@ -1624,6 +1634,7 @@ let stepsContent = [
     },
   ]
   },
+  //content stored for step 12
   {
     title: 'Hiring & training staff',
     id: 11,
@@ -2279,6 +2290,7 @@ let stepsContent = [
       },
     ]
   },
+  //content stored for step 9
   {
     title: "Decide where your business will operate",
     id: 8,
