@@ -1,16 +1,17 @@
 
 //File variable declarations
-
 var container;
 
 function loadStepsContent () {
 
-  Router.navigate ('/stepsList');
-  container = document.getElementById("mainContainerDiv");
-  container.innerHTML = '';
+  let navRoute = "?Steps=List";
+  window.history.pushState(null, null, navRoute);
 
+  //container = document.getElementById("mainContainerDiv");
+  //container.innerHTML = '';
+
+  document.getElementById("mainContainerDiv").innerHTML = '';
   createDifferentStepsButtons ();
-
 }
 
 function createDifferentStepsButtons () {
@@ -68,76 +69,19 @@ function createDifferentStepsButtons () {
     }
   }
   //appends the level buttons div to the main display div
-  container.appendChild(stepsButtonDiv);
+  document.getElementById("mainContainerDiv").appendChild(stepsButtonDiv);
 
 }
 
 function selectNewStep(stepName) {
   return function () {
-    switch (stepName) {
 
-      case "Step 1":
-      Router.navigate ('/step1');
-      loadStepsData("Step 1",1);
-      break;
+    let seperatedString = stepName.split (" ");
 
-      case "Step 2":
-      Router.navigate ('/step2');
-      loadStepsData("Step 2",2);
-      break;
+    let navRoute = "?" + seperatedString[0] + "s=" + seperatedString[1];
+    window.history.pushState(null, null, navRoute);
+    console.log (stepName, Number(seperatedString[1]));
+    loadStepsData (stepName, Number(seperatedString[1]));
 
-      case "Step 3":
-      Router.navigate ('/step3');
-      loadStepsData("Step 3",3);
-      break;
-
-      case "Step 4":
-      Router.navigate ('/step4');
-      loadStepsData("Step 4",4);
-      break;
-
-      case "Step 5":
-      Router.navigate ('/step5');
-      loadStepsData("Step 5",5);
-      break;
-
-      case "Step 6":
-      Router.navigate ('/step6');
-      loadStepsData("Step 6",6);
-      break;
-
-      case "Step 7":
-      Router.navigate ('/step7');
-      loadStepsData("Step 7",7);
-      break;
-
-      case "Step 8":
-      Router.navigate ('/step8');
-      loadStepsData("Step 8",8);
-      break;
-
-      case "Step 9":
-      Router.navigate ('/step9');
-      loadStepsData("Step 9",9);
-      break;
-
-      case "Step 10":
-      Router.navigate ('/step10');
-      loadStepsData("Step 10",10);
-      break;
-
-      case "Step 11":
-      Router.navigate ('/step11');
-      loadStepsData("Step 11",11);
-      break;
-
-      case "Step 12":
-      Router.navigate ('/step12');
-      loadStepsData("Step 12",12);
-      break;
-
-      default:
-      console.log("levelSelectScreen : selectNewLevel : Default");
-    }
   }
 }

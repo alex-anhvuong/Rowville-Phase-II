@@ -84,7 +84,7 @@ var Router = {
 
 
 //Router.config({ mode: 'history'});
-Router.navigate();
+//Router.navigate();
 
 //adding routes
 // Router

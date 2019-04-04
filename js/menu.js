@@ -1,5 +1,6 @@
-
+window.headerLoaded = false;
 function drawHeader(){
+
 
 
     var headerDiv = document.getElementById("navbar-header");
@@ -31,7 +32,6 @@ function drawHeader(){
     StepsDiv.appendChild(stepsLink);
     stepsLink.onclick= function(){loadStepsContent();}
 
+    headerLoaded = true;
     onLoadHomepage();
 }
-
-

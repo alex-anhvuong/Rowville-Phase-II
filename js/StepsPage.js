@@ -1,9 +1,11 @@
 
 let stepNameNav;
 let stepNumber;
+
 function loadStepsData(stepName, numberOfStep) {
   stepNumber = numberOfStep;
   stepNameNav = stepName;
+  console.log (stepName, numberOfStep);
   let nextButton = createElement("button", "Next Button", "", "nextButtonClass");
   let previousButton = createElement("button", "Previous Button", "", "prevButtonClass");
 
@@ -113,8 +115,8 @@ function nextButtonAction() {
 
   let newStepNumber = stepNumber + 1;
   let newStepName = "Step " + newStepNumber;
-  let navRoute = "step" + newStepNumber;
-  Router.navigate (navRoute);
+  let navRoute = "?Steps=" + newStepNumber;
+  window.history.pushState(null, null, navRoute);
   loadStepsData(newStepName, newStepNumber);
 
 }
@@ -127,8 +129,8 @@ function previousButtonAction() {
   let newStepNumber = stepNumber - 1;
   let newStepName = "Step " + newStepNumber;
 
-  let navRoute = "step" + newStepNumber;
-  Router.navigate (navRoute);
+  let navRoute = "?Steps=" + newStepNumber;
+  window.history.pushState(null, null, navRoute);
   loadStepsData(newStepName, newStepNumber);
 
 }
