@@ -1,6 +1,10 @@
 
 let stepNameNav;
-
+/* This function is used to load content for different Steps, 
+all the content is being loaded from stepsContent.
+ A particular step content is feteched 
+using two parameters being passed to this function ie. 
+StepName and numberOfStep */
 function loadStepsData(stepName, numberOfStep) {
   stepNameNav = stepName;
 
@@ -11,10 +15,11 @@ function loadStepsData(stepName, numberOfStep) {
   document.getElementById("mainContainerDiv").innerHTML = '';
   window.scrollTo(0,0);
 
-  //creates wrapper div for the level UI
+  /*creates wrapper div for the level UI which is basically appending
+   data to document by creating elements dynamically and adding content to these elements*/
   let levelDiv = createElement("div", "", "levelDiv", "");
 
-
+ // Next and Previous button for navigating to next and previous steps. Actions to these buttons are added using onclick events
   nextButton.onclick = function() {nextButtonAction()};
   previousButton.onclick = function() {previousButtonAction()};
   buttonWrapper.appendChild(previousButton);
@@ -25,16 +30,19 @@ function loadStepsData(stepName, numberOfStep) {
   let stepHeading = createElement("h1", "Step", "", "step-and-number");
   let stepNumberHeading = createElement("h1", numberOfStep, "", "step-and-number");
 
-  //Create title tag
+  //Create title tag for Brief Heading of the step being displayed
   let titleHeading = createElement("h2", "", "", "step-title");
 
   //appends the titles to the level wrapper div
   levelDiv.appendChild(stepHeading);
   levelDiv.appendChild(stepNumberHeading);
   levelDiv.appendChild(titleHeading);
-
+ 
   for (let counter = 0; counter < stepsContent.length; counter++) {
-
+    /*store objects from stepsContent using counter, 
+    counter 0 will correspond to first step data and so on.
+     Then append this data to elements created dynamically.
+      These elements are p elements, lists, headers. iframe used for embedding video */
     let stepsObj = stepsContent[counter];
 
     if (stepsObj.stepName === stepName) {
@@ -108,6 +116,8 @@ function loadStepsData(stepName, numberOfStep) {
   document.getElementById("mainContainerDiv").appendChild(levelDiv);
 }
 
+/*this function is being called when clicking nextButton button for switching to next step. Switch statement is used to change the arguments such as  step name and number for loadStepsData function*/
+
 function nextButtonAction() {
 
   document.getElementById("mainContainerDiv").innerHTML = '';
@@ -164,7 +174,7 @@ function nextButtonAction() {
   }
 
 }
-
+ //Function to be called  on previousButton button element
 function previousButtonAction() {
 
   document.getElementById("mainContainerDiv").innerHTML = '';

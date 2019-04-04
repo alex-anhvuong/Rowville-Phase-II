@@ -1,4 +1,4 @@
-//Display all steps
+//Display all steps to be used for stepsList
 
 let numberOfSteps = [
 
