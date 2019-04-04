@@ -3,10 +3,13 @@ let stepNameNav;
 
 function loadStepsData(stepName, numberOfStep) {
   stepNameNav = stepName;
-  let nextButton = createElement("button", "Next Button", "", "nextButtonClass");
-  let previousButton = createElement("button", "Previous Button", "", "prevButtonClass");
+
+  let buttonWrapper = createElement("div", "", "", "btn-container");
+  let previousButton = createElement("button", "Previous Step", "", "prevButtonClass");
+  let nextButton = createElement("button", "Next Step", "", "nextButtonClass");
 
   document.getElementById("mainContainerDiv").innerHTML = '';
+  window.scrollTo(0,0);
 
   //creates wrapper div for the level UI
   let levelDiv = createElement("div", "", "levelDiv", "");
@@ -14,8 +17,9 @@ function loadStepsData(stepName, numberOfStep) {
 
   nextButton.onclick = function() {nextButtonAction()};
   previousButton.onclick = function() {previousButtonAction()};
-  levelDiv.appendChild(nextButton);
-  levelDiv.appendChild(previousButton);
+  buttonWrapper.appendChild(previousButton);
+  buttonWrapper.appendChild(nextButton);
+  levelDiv.appendChild(buttonWrapper);
 
   //  Create the heading: "Step {number}"
   let stepHeading = createElement("h1", "Step", "", "step-and-number");

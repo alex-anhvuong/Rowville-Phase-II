@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/stepNav.css">
+    <link rel="stylesheet" href="css/step.css">
     <!--
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     -->
@@ -43,13 +44,15 @@
 <div id="navbar-header">
 </div>
 <div id="mainContainerDiv">
-    <iframe src="https://www.youtube.com/embed/hc1Xq0hgFCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="video_class">
+      <iframe src="https://www.youtube.com/embed/hc1Xq0hgFCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
     <div class="font" id="introductionTextPara-HomePage">
       <p>Have you got a business idea that you want to turn into a reality?</p>
       <p>ThinkBiz has been created to help you take your business idea from just “thinking about it” to actually making it happen.</p>
       <p>We have simplified the process into 12 easy steps to follow, to start a business in Victoria. We have also provided lots of quick links to watch some helpful videos, find out further information and where to go for help and support along the way.</p>
     </div>
-    <button class="btnClass">Click to get started</button>
+    <button class="btnClass" onclick="loadStepsData('Step 1',1)">Click to get started</button>
 </div>
 </body>
 </html>

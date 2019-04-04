@@ -18,19 +18,14 @@
 } */
 
 .btnClass{
-  background: #4aabe0;
-  background-image: -webkit-linear-gradient(top, #4aabe0, #3149bf);
-  background-image: -moz-linear-gradient(top, #4aabe0, #3149bf);
-  background-image: -ms-linear-gradient(top, #4aabe0, #3149bf);
-  background-image: -o-linear-gradient(top, #4aabe0, #3149bf);
-  background-image: linear-gradient(to bottom, #4aabe0, #3149bf);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
+  background-color: #0277BD;
+  border: none;
   display: block;
   font-size: 0.75em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
   margin: 20px auto;
-  border-radius: 28px;
+  border-radius: 20px;
   color: white;
-  padding: 15px 20px 15px 20px;
-  text-decoration: none;
+  padding: 30px 20px;
  }

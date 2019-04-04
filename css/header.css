@@ -2,7 +2,7 @@
 }
 
 .topnavlogo{
-  background-color: #7b9aac;
+  background-color: #0277BD;
   margin: auto;
   padding: 35px 0;
   text-align: center;
@@ -17,10 +17,9 @@
 }
 
 .homeDiv, .StepsDiv{
-    background-color: #F9AA33;
+    background-color: #64B5F6;
     display: inline-block;
     box-sizing: border-box;
-    border: 5px solid gray;
     /* border-style: solid;
     border-color: #255197; */
     text-align: center;
@@ -39,9 +38,17 @@
 
 .homeLink, .stepsLink {
   display: inline-block;
-  color: black;
+  color: white;
   font-weight: 800;
   margin: 15px 0;
   width: 100%;
   text-decoration: none;
+}
+
+.homeLink {
+  border-right: 2.5px solid #5f9aca;
+}
+
+.stepsLink {
+  border-left: 2.5px solid #5f9aca;
 }
