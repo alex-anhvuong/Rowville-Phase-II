@@ -1,19 +1,19 @@
 
+//File variable declarations
 var container;
 /*-------- this function is called on stepsLink in header.
-It clears the mainContainer first, then calls another function for 
+It clears the mainContainer first, then calls another function for
 displaying steps list.----------------------------------------*/
 function loadStepsContent () {
 
- //clear the main container Div
-  container = document.getElementById("mainContainerDiv");
-  container.innerHTML = '';
-  
-  /*call a function to create buttons for steps list on which step number
-   and Titles are displayed and these buttons have onclick events 
-   added to switch to corresponding Step content*/
-  createDifferentStepsButtons ();
+  let navRoute = "?Steps=List";
+  window.history.pushState(null, null, navRoute);
 
+  //container = document.getElementById("mainContainerDiv");
+  //container.innerHTML = '';
+
+  document.getElementById("mainContainerDiv").innerHTML = '';
+  createDifferentStepsButtons ();
 }
 
 function createDifferentStepsButtons () {
@@ -73,64 +73,19 @@ function createDifferentStepsButtons () {
     }
   }
   //appends the level buttons div to the main display div
-  container.appendChild(stepsButtonDiv);
+  document.getElementById("mainContainerDiv").appendChild(stepsButtonDiv);
 
 }
 /* This function  uses switch statement to bind a function for each step in step list by determining it through step name . */
 function selectNewStep(stepName) {
   return function () {
-    switch (stepName) {
 
-      case "Step 1":
-      loadStepsData("Step 1",1);
-      break;
+    let seperatedString = stepName.split (" ");
 
-      case "Step 2":
-      loadStepsData("Step 2",2);
-      break;
+    let navRoute = "?" + seperatedString[0] + "s=" + seperatedString[1];
+    window.history.pushState(null, null, navRoute);
+    console.log (stepName, Number(seperatedString[1]));
+    loadStepsData (stepName, Number(seperatedString[1]));
 
-      case "Step 3":
-      loadStepsData("Step 3",3);
-      break;
-
-      case "Step 4":
-      loadStepsData("Step 4",4);
-      break;
-
-      case "Step 5":
-      loadStepsData("Step 5",5);
-      break;
-
-      case "Step 6":
-      loadStepsData("Step 6",6);
-      break;
-
-      case "Step 7":
-      loadStepsData("Step 7",7);
-      break;
-
-      case "Step 8":
-      loadStepsData("Step 8",8);
-      break;
-
-      case "Step 9":
-      loadStepsData("Step 9",9);
-      break;
-
-      case "Step 10":
-      loadStepsData("Step 10",10);
-      break;
-
-      case "Step 11":
-      loadStepsData("Step 11",11);
-      break;
-
-      case "Step 12":
-      loadStepsData("Step 12",12);
-      break;
-
-      default:
-      console.log("levelSelectScreen : selectNewLevel : Default");
-    }
   }
 }

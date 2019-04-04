@@ -1,7 +1,8 @@
-/* --------------This function gets called when body of HTML index file is loaded to display the Header elements------------- */
+window.headerLoaded = false;
 function drawHeader(){
 
-    // Div element that encapsulates the Entire Div elements for header
+
+
     var headerDiv = document.getElementById("navbar-header");
 
     // This div contains logo image
@@ -31,7 +32,6 @@ function drawHeader(){
     /*--- call function to load steps list that is from StepsPage.js ---- */
     stepsLink.onclick= function(){loadStepsContent();}
 
+    headerLoaded = true;
     onLoadHomepage();
 }
-
-
