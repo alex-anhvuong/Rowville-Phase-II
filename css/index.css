@@ -10,7 +10,7 @@ body {
   /* color: #0e1111; */
   font-family: 'Bitter', serif;
   font-size: 1.75em;
-  margin: 20px 0;
+  margin: 15px 0;
   text-align: center;
 }
 
@@ -24,7 +24,7 @@ body {
 
 #mainContainerDiv {
   margin-bottom: 50px;
-  padding: 20px;
+  padding: 15px 20px;
 }
 
 .click_below {

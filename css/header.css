@@ -2,7 +2,7 @@
 }
 
 .topnavlogo{
-  background-color: #0277BD;
+  background-color: #00265d;
   margin: auto;
   padding: 10px 0;
   text-align: center;
@@ -17,7 +17,7 @@
 }
 
 .homeDiv, .StepsDiv{
-    background-color: #64B5F6;
+    background-color: #22487F;
     display: inline-block;
     box-sizing: border-box;
     /* border-style: solid;
