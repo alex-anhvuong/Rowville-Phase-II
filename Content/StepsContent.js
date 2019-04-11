@@ -683,7 +683,7 @@ let stepsContent = [
         isVideoLink: false,
         contentData: ["https://www.ato.gov.au/Calculators-and-tools/Host/?anchor=&anchor=RKET/#RKET/"],
         style: "None",
-        tagType: "span",
+        tagType: "a",
         isBold: false,
         isUnderLine: false,
         isLink: true,
@@ -1934,7 +1934,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["superannuation payments "],
+        contentData: [" superannuation payments "],
         style: "None",
         tagType: "span",
         isBold: true,

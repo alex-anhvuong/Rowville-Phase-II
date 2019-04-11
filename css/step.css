@@ -1,5 +1,7 @@
 .btn-container {
-  height: 100px;
+  height: 70px;
+  margin-top: 30px;
+  margin-bottom: 50px;
   width: 100%;
   text-align: center;
   position: relative;
@@ -17,7 +19,7 @@
   display: inline-block;
   width: 47%;
   padding: 10px 30px;
-  margin: 10px 15px;
+  margin: 0 15px;
 }
 
 .nextButtonClass {
@@ -34,4 +36,10 @@
   margin-left: 0;
   position: absolute;
   left: 0;
+}
+
+@media only screen and (max-width: 475px) {
+  .nextButtonClass, .prevButtonClass {
+    word-spacing: 50px;
+  }
 }
