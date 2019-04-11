@@ -37,6 +37,7 @@
 }
 
 .homeLink, .stepsLink {
+  box-sizing: border-box;
   display: inline-block;
   color: white;
   font-weight: 800;
