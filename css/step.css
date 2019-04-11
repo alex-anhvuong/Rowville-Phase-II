@@ -1,6 +1,8 @@
 .btn-container {
-  text-align: center;
+  height: 100px;
   width: 100%;
+  text-align: center;
+  position: relative;
 }
 
 .prevButtonClass, .nextButtonClass {
@@ -13,7 +15,7 @@
   color: white;
   text-decoration: none;
   display: inline-block;
-  width: 40%;
+  width: 47%;
   padding: 10px 30px;
   margin: 10px 15px;
 }
@@ -21,9 +23,15 @@
 .nextButtonClass {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
+  margin-right: 0;
+  position: absolute;
+  right: 0;
 }
 
 .prevButtonClass {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
+  margin-left: 0;
+  position: absolute;
+  left: 0;
 }
