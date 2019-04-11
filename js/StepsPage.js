@@ -12,10 +12,6 @@ function loadStepsData(stepName, numberOfStep) {
   stepNumber = numberOfStep;
   stepNameNav = stepName;
 
-  let buttonWrapper = createElement("div", "", "", "btn-container");
-  let previousButton = createElement("button", "Previous Step", "", "prevButtonClass");
-  let nextButton = createElement("button", "Next Step", "", "nextButtonClass");
-
   document.getElementById("mainContainerDiv").innerHTML = '';
   window.scrollTo(0,0);
 
@@ -24,11 +20,11 @@ function loadStepsData(stepName, numberOfStep) {
   let levelDiv = createElement("div", "", "levelDiv", "");
 
  // Next and Previous button for navigating to next and previous steps. Actions to these buttons are added using onclick events
-  nextButton.onclick = function() {nextButtonAction()};
-  previousButton.onclick = function() {previousButtonAction()};
-  buttonWrapper.appendChild(previousButton);
-  buttonWrapper.appendChild(nextButton);
-  levelDiv.appendChild(buttonWrapper);
+  //nextButton.onclick = function() {nextButtonAction()};
+  //previousButton.onclick = function() {previousButtonAction()};
+  //buttonWrapper.appendChild(previousButton);
+  //buttonWrapper.appendChild(nextButton);
+  levelDiv.appendChild(createButtonAndreturnDiv());
 
   //  Create the heading: "Step {number}"
   let stepHeading = createElement("h1", "Step", "", "step-and-number");
@@ -79,14 +75,14 @@ function loadStepsData(stepName, numberOfStep) {
             let paraTag = createElement (contentObj.tagType, contentData[k], "", "");
 
             paraTag.href = contentData[k];
-
+            paraTag.target = "_blank";
             levelDiv.appendChild (paraTag);
             break;
 
           } else if (contentObj.isUnderLine) {
             let paraTag = createElement (contentObj.tagType, contentData[k], "", "click_below");
-            //paraTag.href = contentData[k];
-
+            paraTag.href = contentObj.href;
+            paraTag.target = "_blank";
             levelDiv.appendChild (paraTag);
             break;
 
@@ -116,8 +112,22 @@ function loadStepsData(stepName, numberOfStep) {
     }
 
   }
-
+  levelDiv.appendChild(createButtonAndreturnDiv());
   document.getElementById("mainContainerDiv").appendChild(levelDiv);
+}
+
+function createButtonAndreturnDiv () {
+
+  let buttonWrapper = createElement("div", "", "", "btn-container");
+  let previousButton = createElement("button", "Previous Step", "", "prevButtonClass");
+  let nextButton = createElement("button", "Next Step", "", "nextButtonClass");
+
+  nextButton.onclick = function() {nextButtonAction()};
+  previousButton.onclick = function() {previousButtonAction()};
+  buttonWrapper.appendChild(previousButton);
+  buttonWrapper.appendChild(nextButton);
+
+  return buttonWrapper;
 }
 
 /*this function is being called when clicking nextButton button for switching to next step. Switch statement is used to change the arguments such as  step name and number for loadStepsData function*/
