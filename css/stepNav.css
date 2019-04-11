@@ -69,6 +69,17 @@ white-space: nowrap;
 
 @media screen and (orientation: portrait) {
 
+    /*iphone 5/SE*/
+    @media screen and  (min-width: 300px) and (max-width: 330px) {
+        #steps-btn-div {
+            width: 80%;
+            }
+        .step-content {
+            white-space: normal;
+        }
+    }
+
+    /*iphone 6/7/8*/
     @media screen and  (min-width: 330px) and (max-width: 600px) {
         #steps-btn-div {
             width: 80%;
@@ -78,6 +89,7 @@ white-space: nowrap;
         }
     }
 
+    /*ipad*/
     @media screen and (min-width: 600px) and (max-width: 1024px){
         #steps-btn-div {
             width: 80%;
@@ -89,6 +101,7 @@ white-space: nowrap;
 }
 @media screen and (orientation: landscape) {
 
+    /*iphone 6/7/8*/
     @media screen and  (min-width: 330px) and (max-width: 900px) {
         #steps-btn-div {
             width: 80%;
@@ -98,6 +111,7 @@ white-space: nowrap;
         }
     }
 
+    /*ipad*/
     @media screen and (min-width: 900px) and (max-width: 1024px){
         #steps-btn-div {
             width: 80%;
