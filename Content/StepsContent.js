@@ -105,7 +105,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["A really useful tool to help with your research is to carry out a swot analysis. Swot stands for Strengths, Weaknesses, Opportunities, and Threats. While your strengths and weaknesses are internal to your business, threats and opportunities are external in the environment. The main strategies behind SWOT analysis are"],
+        contentData: ["A really useful tool to help with your research is to carry out a swot analysis. Swot stands for Strengths, Weaknesses, Opportunities, and Threats. While your strengths and weaknesses are internal to your business, threats and opportunities are external in the environment. The main strategies behind SWOT analysis are:"],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -115,7 +115,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["To use your strenghts to take advantage of your opportunities", "Use your strenghts to minimise threats.", "Look at ways to reduce your weaknesses by taking advantage of opportunities.", "Work on eliminating or getting rid of the weaknesses to avoid threats."],
+        contentData: ["To use your strenghts to take advantage of your opportunities.", "Use your strenghts to minimise threats.", "Look at ways to reduce your weaknesses by taking advantage of opportunities.", "Work on eliminating or getting rid of the weaknesses to avoid threats."],
         style: "None",
         tagType: "ol",
         isBold: false,
@@ -480,7 +480,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["The costs of starting a business can vary greatly depending on what type of business you want to create. Your business plan should help you to estimate some of these costs. However, there’s a whole list of things to consider when working out what your costs will be so you may need some help. Business Victoria has created a great pre-ready excel template listing lots of common business costs to help get you started."],
+        contentData: ["The costs of starting a business can vary greatly depending on what type of business you want to create. Your business plan should help you to estimate some of these costs. However, there’s a whole list of things to consider when working out what your costs will be, so you may need some help. Business Victoria has created a great pre-ready excel template listing lots of common business costs to help get you started."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -1156,7 +1156,7 @@ let stepsContent = [
     contentList: [
       {
       isVideoLink: false,
-      contentData: ["Having a website for your business is not compulsory,  however, having a website is a very popular way of marketing your business. It helps people to find out about what your business does and what is has to offer, it can also help to make your business seem more professional."],
+      contentData: ["Having a website for your business is not compulsory,  however, having a website is a very popular way of marketing your business. It helps people to find out what your business does and what is has to offer, it can also help to make your business seem more professional."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1600,7 +1600,7 @@ let stepsContent = [
 
     {
       isVideoLink: false,
-      contentData: ["Your local council can help with training as well. The Knox council economic and development department offers help and support through their Knoxbiz website.  "],
+      contentData: ["Your local council can help with training as well. The Knox council economic and development department offers help and support through their KnoxBiz website.  "],
       style: "None",
       tagType: "span",
       isBold: false,
@@ -2369,7 +2369,7 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["Business types such as an online business, a trade working on site, making a product yourself to sell, providing a personal service such as consulting, counselling and wellbeing or a service such as massage, beauty or hair dressing, then working from home would probably be the cheapest, easiest and most convenient place to work from."],
+      contentData: ["Business types such as an online business, a trade working on site, making a product yourself to sell, providing a personal service such as consulting, counselling and wellbeing, or a service such as massage, beauty or hair dressing, then working from home would probably be the cheapest, easiest and most convenient place to work from."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -2411,7 +2411,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["As you can see, choosing the right base for your business needs a lot of thought, research and planning before you decide? "],
+        contentData: ["As you can see, choosing the right base for your business needs a lot of thought, research and planning before you decide. "],
         style: "None",
         tagType: "span",
         isBold: false,
