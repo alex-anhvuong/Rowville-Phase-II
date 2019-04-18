@@ -1065,7 +1065,7 @@ let stepsContent = [
         className: "low_spaces_para"
       },
 
-      
+
       {
         isVideoLink: false,
         contentData: ["A good place to start to work out what insurances you need for your business is usually to talk to a business insurance broker. An insurance broker is a professional at assessing what insurances suit your business and getting quotes on your behalf.  They can sometimes combine a few insurances together for you in a package to reduce the costs. This can sometimes be cheaper than trying to get a lot of individual insurance policies on your own.  However, as insurance can be expensive, it pays to shop around."],
@@ -1183,13 +1183,10 @@ let stepsContent = [
         isList: true,
         className: "low_spaces_para"
       },
-    
-  
+
+
       {
         isVideoLink: false,
-<<<<<<< HEAD
-        contentData: ["For more information if any of the above protections maybe relevant for your business, "],
-=======
         contentData: [""],
         style: "None",
         tagType: "br",
@@ -1201,7 +1198,6 @@ let stepsContent = [
       {
         isVideoLink: false,
         contentData: ["For more information if any of the above protections maybe relevant for your business "],
->>>>>>> content-edit
         style: "None",
         tagType: "span",
         isBold: false,
