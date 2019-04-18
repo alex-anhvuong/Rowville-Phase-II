@@ -102,7 +102,7 @@ function loadStepsData(stepName, numberOfStep) {
             let paraTag = createElement (contentObj.tagType, contentData[k], "", contentObj.className);
 
             if (contentObj.isBold) {
-              paraTag.style.fontWeight = "bold";
+              paraTag.style.fontWeight = "900";
             }
             levelDiv.appendChild (paraTag);
           }

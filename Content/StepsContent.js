@@ -165,6 +165,16 @@ let stepsContent = [
         isUnderLine: false,
         isLink: true,
         isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
       }
     ]
   },
@@ -226,9 +236,18 @@ let stepsContent = [
         isUnderLine: false,
         isLink: false,
         isList: true,
+      },
+      {
+        isVideoLink: false,
+        contentData: ["To hear this explained further, watch this short video created by the Australian Taxation Office:"],
+        style: "None",
+        tagType: "p",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false,
         className: "low_spaces_para"
       },
-
       {
         isVideoLink: true,
         contentData: ["https://www.youtube.com/embed/zsorYp67atg"],
@@ -240,6 +259,37 @@ let stepsContent = [
         isList: false,
         className: "videoLink"
       },
+      {
+        isVideoLink: false,
+        contentData: ["To help you choose a business structure, Business Victoria has provided a small quiz. Refer here to take the quiz and help to decide on the structure that suits you best: "],
+        style: "None",
+        tagType: "p",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false,
+        className: "low_spaces_para"
+      },
+      {
+        isVideoLink: false,
+        contentData: ["https://fs2.formsite.com/diirdwebteam3/form263/index.html"],
+        style: "None",
+        tagType: "a",
+        isBold: false,
+        isUnderLine: false,
+        isLink: true,
+        isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
     ]
   },
   //content stored for step 3
@@ -250,7 +300,7 @@ let stepsContent = [
     contentList: [
       {
         isVideoLink: false,
-        contentData: ["ABN stands for Australian Business Number. An ABN is a special number allocated to your business that specifically identifies your business to the government and community. An ABN is not only used to identify your business to the government, customers and other businesses, but also for a range of other tax and business purposes, such as to claim tax deductions for business expenses against your taxable income"],
+        contentData: ["ABN stands for Australian Business Number. An ABN is a special number allocated to your business that specifically identifies your business to the government and community. An ABN is not only used to identify your business to the government, customers and other businesses, but also for a range of other tax and business purposes, such as to claim tax deductions for business expenses against your taxable income."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -424,6 +474,16 @@ let stepsContent = [
         isBold: false,
         isUnderLine: false,
         isLink: true,
+        isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
         isList: false
       },
     ]
@@ -796,7 +856,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: [" To determine the goals of your business.", "Provide information on the products or service you will provide.","To understand that how you will set up your business.","What the finances will be.","How you are going to market your business and how you’re going to achieve your goals.","To track your progress and control your business."],
+      contentData: ["Determine the goals of your business.", "Provide information on the products or service you will provide.","Understand that how you will set up your business.","What the finances will be.","How you are going to market your business and how you’re going to achieve your goals.","Track your progress and control your business."],
       style: "None",
       tagType: "ul",
       isBold: false,
@@ -871,7 +931,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["Watch a few useful short videos on developing a business plan by 3 major banks", "Developing a business plan by Commonwealth Bank"],
+      contentData: ["Watch a few useful short videos on developing a business plan by 3 major banks.", "Developing a business plan by Commonwealth Bank"],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1069,6 +1129,16 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
+        contentData: [""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
+      {
+        isVideoLink: false,
         contentData: ["Common protections some businesses use to secure these aspects of their business include:"],
         style: "None",
         tagType: "p",
@@ -1088,6 +1158,16 @@ let stepsContent = [
         isLink: false,
         isList: false,
         className: "low_spaces_para"
+      },
+      {
+        isVideoLink: false,
+        contentData: [""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
       },
       {
         isVideoLink: false,
@@ -1129,6 +1209,16 @@ let stepsContent = [
         isBold: false,
         isUnderLine: false,
         isLink: true,
+        isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
         isList: false
       },
     ]
@@ -1224,7 +1314,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["giving your business a digital shopfront", "allowing your business to be open 24/7", "increasing your target audience reach to a global audience", "Allowing customer access on your products and services anytime and anywhere", "working as a marketing tool to sell and promote your products and services, and increase customer engagement", "creating or enhancing your brand and reputation", "improving your business productivity and efficiency"],
+        contentData: ["Giving your business a digital shopfront", "Allowing your business to be open 24/7", "Increasing your target audience reach to a global audience", "Allowing customer access on your products and services anytime and anywhere", "Working as a marketing tool to sell and promote your products and services, and increase customer engagement", "Creating or enhancing your brand and reputation", "Improving your business productivity and efficiency"],
         style: "None",
         tagType: "ul",
         isBold: false,
@@ -1283,6 +1373,16 @@ let stepsContent = [
         isBold: false,
         isUnderLine: false,
         isLink: true,
+        isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
         isList: false
       },
     ]
@@ -1471,7 +1571,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["Having a website and internet presence", "On social media such as Face book, Instagram and Twitter.", "Look at using Google Adwords and or create a Google place listing.", "Networking by going to local business or marketing events, trade shows, workshops, seminars", "Create your own event.", "Newspapers, trade magazines, brochures", "Creating flyers or posters", "Place an ad on a local radio station"],
+      contentData: ["Having a website and internet presence", "On social media such as Facebook, Instagram and Twitter.", "Look at using Google Adwords and or create a Google place listing.", "Networking by going to local business or marketing events, trade shows, workshops, seminars", "Create your own event.", "Newspapers, trade magazines, brochures", "Creating flyers or posters", "Place an ad on a local radio station"],
       style: "None",
       tagType: "ul",
       isBold: false,
@@ -1553,6 +1653,16 @@ let stepsContent = [
       isBold: false,
       isUnderLine: false,
       isLink: true,
+      isList: false
+    },
+    {
+      isVideoLink: false,
+      contentData: ["",""],
+      style: "None",
+      tagType: "br",
+      isBold: false,
+      isUnderLine: false,
+      isLink: false,
       isList: false
     },
   ]
@@ -2345,6 +2455,16 @@ let stepsContent = [
         isLink: true,
         isList: false
       },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
     ]
   },
   //content stored for step 9
@@ -2438,13 +2558,24 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
+      {
+        isVideoLink: false,
         contentData: ["Local council information "],
         style: "None",
         tagType: "p",
         isBold: true,
         isUnderLine: false,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "low_spaces_para"
       },
       {
         isVideoLink: false,
@@ -2458,13 +2589,24 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
+      {
+        isVideoLink: false,
         contentData: ["Planning and permits"],
         style: "None",
         tagType: "p",
         isBold: true,
         isUnderLine: false,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "low_spaces_para"
       },
       {
         isVideoLink: false,
@@ -2478,13 +2620,24 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
+      {
+        isVideoLink: false,
         contentData: ["Building"],
         style: "None",
         tagType: "p",
         isBold: true,
         isUnderLine: false,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "low_spaces_para"
       },
       {
         isVideoLink: false,
@@ -2498,13 +2651,24 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
+      {
+        isVideoLink: false,
         contentData: ["Safety"],
         style: "None",
         tagType: "p",
         isBold: true,
         isUnderLine: false,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "low_spaces_para"
       },
       {
         isVideoLink: false,
@@ -2514,6 +2678,16 @@ let stepsContent = [
         isBold: false,
         isUnderLine: false,
         isLink: true,
+        isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
         isList: false
       },
     ]
