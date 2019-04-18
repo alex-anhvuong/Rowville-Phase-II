@@ -115,7 +115,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["To use your strenghts to take advantage of your opportunities.", "Use your strenghts to minimise threats.", "Look at ways to reduce your weaknesses by taking advantage of opportunities.", "Work on eliminating or getting rid of the weaknesses to avoid threats."],
+        contentData: ["To use your strengths to take advantage of your opportunities.", "Use your strengths to minimise threats.", "Look at ways to reduce your weaknesses by taking advantage of opportunities.", "Work on eliminating or getting rid of the weaknesses to avoid threats."],
         style: "None",
         tagType: "ol",
         isBold: false,
@@ -878,7 +878,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["Determine the goals of your business.", "Provide information on the products or service you will provide.","Understand that how you will set up your business.","What the finances will be.","How you are going to market your business and how you’re going to achieve your goals.","Track your progress and control your business."],
+      contentData: ["Determine the goals of your business.", "Provide information on the products or service you will provide.","Understand how you will set up your business.","What the finances will be.","How you are going to market your business and how you’re going to achieve your goals.","Track your progress and control your business."],
       style: "None",
       tagType: "ul",
       isBold: false,
@@ -921,7 +921,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["refer"],
+      contentData: ["click here."],
       style: "None",
       tagType: "a",
       href: "https://www.business.gov.au/Planning/Templates-and-tools/Business-Plan-Template-and-Guide",
@@ -1023,6 +1023,17 @@ let stepsContent = [
     stepName: "Step 6",
     contentList: [
       {
+        isVideoLink: true,
+        contentData: ["https://www.youtube.com/embed/Fj1V90H3_mQ"],
+        style: "None",
+        tagType: "iframe",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false,
+        className: "videoLink"
+      },
+      {
       isVideoLink: false,
       contentData: ["Insuring your business gives you the protection and peace of mind that you will be covered if something goes wrong with your premises, such as fire, burglary or damage. Insurance is also a way of making sure you can cover costs that may come about from injury, damage or financial loss caused by your product or service or during the operation of your business.  You’ll also need special insurances like work cover when employing staff."],
       style: "None",
@@ -1034,7 +1045,7 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["There are loads of different insurances available for a whole range of aspects of business."],
+      contentData: ["There are loads of different insurance policies available for a whole range of aspects of business."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1197,7 +1208,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["For more information if any of the above protections maybe relevant for your business "],
+        contentData: ["For more information if any of the above protections may be relevant for your business "],
         style: "None",
         tagType: "span",
         isBold: false,
@@ -1255,6 +1266,17 @@ let stepsContent = [
     id: 6,
     stepName: "Step 7",
     contentList: [
+      {
+        isVideoLink: true,
+        contentData: ["https://www.youtube.com/embed/CDuEEmAwCxA"],
+        style: "None",
+        tagType: "iframe",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false,
+        className: "videoLink"
+      },
       {
       isVideoLink: false,
       contentData: ["Having a website for your business is not compulsory,  however, having a website is a very popular way of marketing your business. It helps people to find out what your business does and what is has to offer, it can also help to make your business seem more professional."],
@@ -1321,7 +1343,7 @@ let stepsContent = [
         contentData: ["Benefits of a website"],
         style: "None",
         tagType: "p",
-        isBold: false,
+        isBold: true,
         isUnderLine: false,
         isLink: false,
         isList: false,
@@ -1420,8 +1442,19 @@ let stepsContent = [
   stepName: "Step 10",
   contentList: [
     {
+      isVideoLink: true,
+      contentData: ["https://www.youtube.com/embed/r1FxawSP0RU"],
+      style: "None",
+      tagType: "iframe",
+      isBold: false,
+      isUnderLine: false,
+      isLink: false,
+      isList: false,
+      className: "videoLink"
+    },
+    {
       isVideoLink: false,
-      contentData: ["In business you usually want to sell as much of your product or service as possible or at least find enough customers/clients to ensure you are making enough money to be profitable and keep your business going."],
+      contentData: ["In business, you usually want to sell as much of your product or service as possible or at least find enough customers/clients to ensure you are making enough money to be profitable and keep your business going."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1463,7 +1496,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["Most businesses will have a marketing plan. Having a plan to follow will help you to keep thinking about and taking steps to ensure you are contently attracting your target market customers.", "To help with this business victoria offers some great information and has a ready made marketing template for you to use. Just"],
+      contentData: ["Most businesses will have a marketing plan. Having a plan to follow will help you to keep thinking about and taking steps to ensure you are contently attracting your target market customers.", "To help with your business, Victoria offers some great information and has a ready-made marketing template for you to use. Just"],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1575,7 +1608,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["Advertising in some ways, is usually very important for almost all businesses, as it enables people to find out about your business and what you offer. It is telling people what product or service you are selling and how and where they can buy it. If no one knows you exist it’s going to be very hard to get customers. Usually the more advertising you can do the better."],
+      contentData: ["Advertising, in some ways, is usually very important for almost all businesses, as it enables people to find out about your business and what you offer. It is telling people what product or service you are selling and how and where they can buy it. If no one knows you exist, it’s going to be very hard to get customers. Usually the more advertising you can do the better."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1608,7 +1641,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["These are just a few to give you an idea but there are endless ways to advertise your business your budget and type of product or service will determine what suits your business best."],
+      contentData: ["These are just a few to give you an idea but there are endless ways to advertise your business, your budget and type of product or service will determine what suits your business best."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1700,14 +1733,15 @@ let stepsContent = [
   stepName: "Step 11",
   contentList: [
     {
-      isVideoLink: false,
-      contentData: ["Starting a business for the first time usually means there’s a lot to learn and we sometimes need help with parts of setting up a business that we might not have much experience with. The good news is that there is so much help and support available for almost every aspect of your business so you don’t have to do it alone.", "The even better news is that most of the help and support available can be found locally in your area, is low cost and in some cases even free.", "A great place to start is with your closest Learn Local training centre. Learn Local organisations offer government subsidised short courses and workshops. With more Learn Local’s across Victoria than there is McDonald’s you're sure to find one near you. Click here to find your nearest Learn Local."],
+      isVideoLink: true,
+      contentData: ["https://www.youtube.com/embed/1DVD0qNcqrA"],
       style: "None",
-      tagType: "p",
+      tagType: "iframe",
       isBold: false,
       isUnderLine: false,
       isLink: false,
-      isList: false
+      isList: false,
+      className: "videoLink"
     },
     {
       isVideoLink: false,
@@ -1841,7 +1875,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["As we have a great deal of legislation governing how we employe, manage, pay and dismiss staff in Australia we want to make sure we get it right.  The Fair Work Act 2009 is the law that regulates nearly all areas of the workplace in regards to employing staff.  The National Employment Standards (NES) are the minimum standards that you will need to provide to your staff under this law.  The Fair work website"],
+        contentData: ["As we have a great deal of legislation governing how we employ, manage, pay and dismiss staff in Australia, we want to make sure we get it right.  The Fair Work Act 2009 is the law that regulates nearly all areas of the workplace in regards to employing staff.  The National Employment Standards (NES) are the minimum standards that you will need to provide to your staff under this law.  The Fair work website"],
         style: "None",
         tagType: "span",
         isBsold: false,
@@ -2329,6 +2363,17 @@ let stepsContent = [
     stepName: "Step 8",
     contentList: [
       {
+        isVideoLink: true,
+        contentData: ["https://www.youtube.com/embed/lDuropNs1sY"],
+        style: "None",
+        tagType: "iframe",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false,
+        className: "videoLink"
+      },
+      {
       isVideoLink: false,
       contentData: ["Besides the various taxation registrations required for business as discussed in Step 3, there are numerous types of registrations, permits and licences required in Victoria to set up and operate your business legally.  Some businesses require more registrations, permits and licences than others.  Some businesses may only have registrations required and may not require any permits or licences."],
       style: "None",
@@ -2500,8 +2545,19 @@ let stepsContent = [
     stepName: "Step 9",
     contentList: [
       {
+        isVideoLink: true,
+        contentData: ["https://www.youtube.com/embed/cRbUAzIVAS4"],
+        style: "None",
+        tagType: "iframe",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false,
+        className: "videoLink"
+      },
+      {
       isVideoLink: false,
-      contentData: ["Working out the best place to operate your business will be determined by many factors, the most important being the type of business you want to have."],
+      contentData: ["Working out the best place to operate your business will be determined by many factors; the most important being the type of business you want to have."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -2542,7 +2598,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: [" How much space you need?" , "What kind of space?", "Where is the best location?", "Is the location accessible to your customers, is there public transport nearby?", "Is there parking available for your customers?", "Is it near the customers you want to attract?", "Is it too close to competition?", "Does the location suit your business type and image?", "Is the location practical to travel to everyday?", "Will you need a permit to carry out your business at that location?", "Would there be issues with your business operation and the local council?", "Will you buy or lease an existing building, factory, shop or office etc...?", "Is the space set up to be safe for you and or employees to operate from?", "Will you have to make modifications to the premises or extend?", "Is it possible to extend the premises in the future if needed?", "Will you need a planning or building permit to carry out any works on the premises?", "How much will it costs to prepare the premises to get it to what you need to it to be?", "Will you have to buy land and build what you need on it?", "What costs and timeframes would be involved in a new build?"],
+        contentData: [" How much space you need?" , "What kind of space?", "Where is the best location?", "Is the location accessible to your customers, is there public transport nearby?", "Is there parking available for your customers?", "Is it near the customers you want to attract?", "Is it too close to competition?", "Does the location suit your business type and image?", "Is the location practical to travel to everyday?", "Will you need a permit to carry out your business at that location?", "Would there be issues with your business operation and the local council?", "Will you buy or lease an existing building, factory, shop or office etc...?", "Is the space set up to be safe for you and or employees to operate from?", "Will you have to make modifications to the premises or extend?", "Is it possible to extend the premises in the future if needed?", "Will you need a planning or building permit to carry out any works on the premises?", "How much will it cost to prepare the premises to get it to what you need to it to be?", "Will you have to buy land and build what you need on it?", "What costs and timeframes would be involved in a new build?"],
         style: "None",
         tagType: "ul",
         isBold: false,
