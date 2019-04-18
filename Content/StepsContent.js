@@ -165,6 +165,16 @@ let stepsContent = [
         isUnderLine: false,
         isLink: true,
         isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
       }
     ]
   },
@@ -176,7 +186,7 @@ let stepsContent = [
     contentList: [
       {
         isVideoLink: false,
-        contentData: ["Deciding on a business structure."],
+        contentData: ["Deciding on a business structure"],
         style: "None",
         tagType: "p",
         isBold: true,
@@ -187,7 +197,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["Choosing the right structure for your business is very important as it affects various aspects of business like ownership, taxation, legal obligations, potential personal liabilities and licencing. Therefore, it is important to make an informed decision when choosing a structure for your business as all structures come with their own advantages and disadvantages."],
+        contentData: ["Choosing the right structure for your business is very important, as it affects various aspects of business like ownership, taxation, legal obligations, potential personal liabilities and licencing. Therefore, it is important to make an informed decision when choosing a structure for your business as all structures come with their own advantages and disadvantages."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -198,7 +208,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["ThinkBiz recommends getting advice from your accountant, solicitor or business adviser before finalising your decision."],
+        contentData: ["ThinkBiz recommends getting advice from your accountant, solicitor and/or business adviser before finalising your decision."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -226,9 +236,18 @@ let stepsContent = [
         isUnderLine: false,
         isLink: false,
         isList: true,
+      },
+      {
+        isVideoLink: false,
+        contentData: ["To hear this explained further, watch this short video created by the Australian Taxation Office:"],
+        style: "None",
+        tagType: "p",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false,
         className: "low_spaces_para"
       },
-
       {
         isVideoLink: true,
         contentData: ["https://www.youtube.com/embed/zsorYp67atg"],
@@ -240,6 +259,37 @@ let stepsContent = [
         isList: false,
         className: "videoLink"
       },
+      {
+        isVideoLink: false,
+        contentData: ["To help you choose a business structure, Business Victoria has provided a small quiz. Refer here to take the quiz and help to decide on the structure that suits you best: "],
+        style: "None",
+        tagType: "p",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false,
+        className: "low_spaces_para"
+      },
+      {
+        isVideoLink: false,
+        contentData: ["https://fs2.formsite.com/diirdwebteam3/form263/index.html"],
+        style: "None",
+        tagType: "a",
+        isBold: false,
+        isUnderLine: false,
+        isLink: true,
+        isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
     ]
   },
   //content stored for step 3
@@ -250,7 +300,7 @@ let stepsContent = [
     contentList: [
       {
         isVideoLink: false,
-        contentData: ["ABN stands for Australian Business Number. An ABN is a special number allocated to your business that specifically identifies your business to the government and community. An ABN is not only used to identify your business to the government, customers and other businesses but also for a range of other tax and business purposes such as to claim tax deductions for business expenses against your taxable income"],
+        contentData: ["ABN stands for Australian Business Number. An ABN is a special number allocated to your business that specifically identifies your business to the government and community. An ABN is not only used to identify your business to the government, customers and other businesses, but also for a range of other tax and business purposes, such as to claim tax deductions for business expenses against your taxable income."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -260,7 +310,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["To understand an ABN further and how to apply for an ABN watch the video by "],
+        contentData: ["To understand an ABN further and how to apply for an ABN, watch the video by "],
         style: "None",
         tagType: "span",
         isBold: false,
@@ -344,7 +394,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["When you apply for an ABN it’s also a good time to register your business name if you’re going to use one. If your business name is just going to be you or your partner’s first name and surname, then there is no need to register for a business name. However, if you’re going to trade under a different name from your own name then you will need to register your business name."],
+        contentData: ["When you apply for an ABN, it’s also a good time to register your business name if you’re going to use one. If your business name is just going to be you or your partner’s first name and surname, then there is no need to register for a business name. However, if you’re going to trade under a different name from your own name, then you will need to register your business name."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -424,6 +474,16 @@ let stepsContent = [
         isBold: false,
         isUnderLine: false,
         isLink: true,
+        isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
         isList: false
       },
     ]
@@ -807,13 +867,24 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["A business plan helps to determine the goals of your business, provide information on the products or service you will provide, how you will set up your business, what the finances will be, how you are going to market your business and how you’re going to achieve your goals. It helps to track your progress and control your business."],
+      contentData: ["A business plan helps: "],
       style: "None",
       tagType: "p",
       isBold: false,
       isUnderLine: false,
       isLink: false,
       isList: false,
+      className: "low_spaces_para"
+    },
+    {
+      isVideoLink: false,
+      contentData: ["Determine the goals of your business.", "Provide information on the products or service you will provide.","Understand that how you will set up your business.","What the finances will be.","How you are going to market your business and how you’re going to achieve your goals.","Track your progress and control your business."],
+      style: "None",
+      tagType: "ul",
+      isBold: false,
+      isUnderLine: false,
+      isLink: false,
+      isList: true,
       className: "low_spaces_para"
     },
     {
@@ -829,7 +900,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["Your business plan not only helps to keep you on track but is extremely important when it comes to needing money for your business. If you want to get a business loan or attract an investor they will want to see your business plan to show that you have thought out all the aspects of your business and why it’s worth loaning you the money or investing in your business.", "Creating a business plan is important and making sure it’s updated regularly is also important to ensure your business keeps moving forward in the right direction.", "You can have a formal detailed business plan or you can have a less formal one page overview of your business plan. It depends on the type and size of the business you want to create and whether or not you will be applying for a loan or needing to find investors."],
+      contentData: ["Your business plan not only helps to keep you on track, but is extremely important when it comes to needing money for your business. If you want to get a business loan or attract an investor, they will want to see your business plan to show that you have thought out all the aspects of your business and why it’s worth loaning you the money or investing in your business.", "Creating a business plan is important and making sure it’s updated regularly is also important to ensure your business keeps moving forward in the right direction.", "You can have a formal detailed business plan or you can have a less formal one page overview of your business plan. It depends on the type and size of the business you want to create and whether or not you will be applying for a loan or needing to find investors."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -840,7 +911,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["The Australian government business website has provided a step by step guide to constructing a business plan. To get help creating your own business plan and free templates "],
+      contentData: ["The Australian government business website has provided a step-by-step guide to constructing a business plan. To get help creating your own business plan and free templates "],
       style: "None",
       tagType: "span",
       isBold: false,
@@ -882,7 +953,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["To watch a few useful short videos on developing a business plan by 3 major banks click here", "Developing a business plan by Commonwealth Bank"],
+      contentData: ["Watch a few useful short videos on developing a business plan by 3 major banks.", "Developing a business plan by Commonwealth Bank"],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -953,7 +1024,7 @@ let stepsContent = [
     contentList: [
       {
       isVideoLink: false,
-      contentData: ["Insuring your business gives you the protection and peace of mind that you will be covered if something goes wrong with your premises such as fire, burglary or damage. Insurance is also a way of making sure you can cover costs that may come about from injury, damage or financial loss caused by your product or service or during the operation of your business.  You’ll also need special insurances like work cover when employing staff."],
+      contentData: ["Insuring your business gives you the protection and peace of mind that you will be covered if something goes wrong with your premises, such as fire, burglary or damage. Insurance is also a way of making sure you can cover costs that may come about from injury, damage or financial loss caused by your product or service or during the operation of your business.  You’ll also need special insurances like work cover when employing staff."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1082,6 +1153,16 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
+        contentData: [""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
+      {
+        isVideoLink: false,
         contentData: ["Common protections some businesses use to secure these aspects of their business include:"],
         style: "None",
         tagType: "p",
@@ -1106,7 +1187,21 @@ let stepsContent = [
   
       {
         isVideoLink: false,
+<<<<<<< HEAD
         contentData: ["For more information if any of the above protections maybe relevant for your business, "],
+=======
+        contentData: [""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["For more information if any of the above protections maybe relevant for your business "],
+>>>>>>> content-edit
         style: "None",
         tagType: "span",
         isBold: false,
@@ -1144,6 +1239,16 @@ let stepsContent = [
         isBold: false,
         isUnderLine: false,
         isLink: true,
+        isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
         isList: false
       },
     ]
@@ -1239,7 +1344,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["giving your business a digital shopfront", "allowing your business to be open 24/7", "increasing your target audience reach to a global audience", "allowing your customers to be able access your products or services?anytime, anywhere", "working as a marketing tool to sell and promote your products and services, and increase customer engagement", "creating or enhancing your brand and reputation", "improving your business productivity and efficiency"],
+        contentData: ["Giving your business a digital shopfront", "Allowing your business to be open 24/7", "Increasing your target audience reach to a global audience", "Allowing customer access on your products and services anytime and anywhere", "Working as a marketing tool to sell and promote your products and services, and increase customer engagement", "Creating or enhancing your brand and reputation", "Improving your business productivity and efficiency"],
         style: "None",
         tagType: "ul",
         isBold: false,
@@ -1300,6 +1405,16 @@ let stepsContent = [
         isLink: true,
         isList: false
       },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
     ]
   },
   //content stored for step 10
@@ -1320,7 +1435,18 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["That’s where marketing and advertising comes in. The marketing process is the preparing of your product or service to give you the best possible chance of enticing your target market and getting them to want your product and to choose your product or service over competitors.", "Marketing is the process of knowing who your target audience is and who your customers will be. This is where researching your product or service, current trends in the market, where your customers are located and how you’re going to reach and attract them to you."],
+      contentData: ["That’s where marketing and advertising comes in. The marketing process is the preparation of your product or service to give you the best possible chance of enticing your target market and getting them to want your product and to choose your product or service over competitors."],
+      style: "None",
+      tagType: "p",
+      isBold: false,
+      isUnderLine: false,
+      isLink: false,
+      isList: false,
+      className: "low_spaces_para"
+    },
+    {
+      isVideoLink: false,
+      contentData: ["Marketing is the process of knowing who your target audience is and who your customers will be. This is where you will be researching your product or service, current trends in the market, where your customers are located and how you’re going to reach and attract them to you."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1351,7 +1477,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["To help with this business victoria offers some great information and has a ready made marketing template for you to use. Just "],
+      contentData: ["To help with this, Business Victoria offers some great information and has a ready made marketing template for you to use. Just "],
       style: "None",
       tagType: "span",
       isBold: false,
@@ -1453,7 +1579,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["Advertising in some way is usually very important for almost all businesses as it is letting people find out about your business and what you offer. It is telling people what product or service you are selling and how and where they can buy it. If no one knows you exist it’s going to be very hard to get customers. Usually the more advertising you can do the better."],
+      contentData: ["Advertising in some ways, is usually very important for almost all businesses, as it enables people to find out about your business and what you offer. It is telling people what product or service you are selling and how and where they can buy it. If no one knows you exist it’s going to be very hard to get customers. Usually the more advertising you can do the better."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1475,7 +1601,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["Having a website and internet presence", "On social media such as face book, instagram and Twitter.", "Look at using Google Adwords and or create a Google place listing.", "Networking going to local business or marketing events, trade shows, workshops, seminars", "Create your own event.", "Newspapers, trade magazines, brochures", "Creating flyers or posters", "Place an ad on a local radio station"],
+      contentData: ["Having a website and internet presence", "On social media such as Facebook, Instagram and Twitter.", "Look at using Google Adwords and or create a Google place listing.", "Networking by going to local business or marketing events, trade shows, workshops, seminars", "Create your own event.", "Newspapers, trade magazines, brochures", "Creating flyers or posters", "Place an ad on a local radio station"],
       style: "None",
       tagType: "ul",
       isBold: false,
@@ -1557,6 +1683,16 @@ let stepsContent = [
       isBold: false,
       isUnderLine: false,
       isLink: true,
+      isList: false
+    },
+    {
+      isVideoLink: false,
+      contentData: ["",""],
+      style: "None",
+      tagType: "br",
+      isBold: false,
+      isUnderLine: false,
+      isLink: false,
       isList: false
     },
   ]
@@ -2010,7 +2146,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["There is also tax requirements that you will need to abide by when employing staff."],
+        contentData: ["There are also tax requirements that you will need to abide by when employing staff."],
         style: "None",
         tagType: "span",
         isBold: false,
@@ -2020,7 +2156,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: [" Think biz highly recommends"],
+        contentData: [" ThinkBiz highly recommends"],
         style: "None",
         tagType: "span",
         isBold: true,
@@ -2198,7 +2334,7 @@ let stepsContent = [
     contentList: [
       {
       isVideoLink: false,
-      contentData: ["Besides the various taxation registrations required for business as discussed in step 3, there are numerous types of registrations, permits and licences required in Victoria to set up and operate your business legally.  Some businesses require more registrations, permits and licences than others.  Some businesses may only have registrations required and may not require any permits or licences."],
+      contentData: ["Besides the various taxation registrations required for business as discussed in Step 3, there are numerous types of registrations, permits and licences required in Victoria to set up and operate your business legally.  Some businesses require more registrations, permits and licences than others.  Some businesses may only have registrations required and may not require any permits or licences."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -2218,7 +2354,7 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["what your business does", "how it is set up", "where you're going to operate your business from", "if you are buying and selling goods from overseas", "if you are providing a service to customers/clients and what that service involves", "if the service requires a qualification to perform the service", "whether you are going to employ people or not", "if you are going to have any effect on the environment"],
+      contentData: ["What your business does", "How it is set up", "Where you're going to operate your business from", "If you are buying and selling goods from overseas", "If you are providing a service to customers/clients and what that service involves", "If the service requires a qualification to perform the service", "Whether you are going to employ people or not", "If you are going to have any effect on the environment"],
       style: "None",
       tagType: "ul",
       isBold: false,
@@ -2228,7 +2364,7 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["These are just to name a few as there are many, many more variables that make a difference to what your business will specifically require.  The Australian Business Licence and Information Service (ABLIS) is a government service that provides information on determining what registrations, permits and licences are needed for different businesses."],
+      contentData: ["These are just to name a few. There are many, many more variables that make a difference to what your business will specifically require.  The Australian Business Licence and Information Service (ABLIS) is a government service that provides information on determining what registrations, permits and licences are needed for different businesses."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -2238,7 +2374,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["Think Biz highly recommends "],
+        contentData: ["ThinkBiz highly recommends "],
         style: "None",
         tagType: "span",
         isBold: true,
@@ -2349,6 +2485,16 @@ let stepsContent = [
         isLink: true,
         isList: false
       },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
     ]
   },
   //content stored for step 9
@@ -2442,13 +2588,24 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
+      {
+        isVideoLink: false,
         contentData: ["Local council information "],
         style: "None",
         tagType: "p",
         isBold: true,
         isUnderLine: false,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "low_spaces_para"
       },
       {
         isVideoLink: false,
@@ -2462,13 +2619,24 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
+      {
+        isVideoLink: false,
         contentData: ["Planning and permits"],
         style: "None",
         tagType: "p",
         isBold: true,
         isUnderLine: false,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "low_spaces_para"
       },
       {
         isVideoLink: false,
@@ -2482,13 +2650,24 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
+      {
+        isVideoLink: false,
         contentData: ["Building"],
         style: "None",
         tagType: "p",
         isBold: true,
         isUnderLine: false,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "low_spaces_para"
       },
       {
         isVideoLink: false,
@@ -2502,13 +2681,24 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
+      {
+        isVideoLink: false,
         contentData: ["Safety"],
         style: "None",
         tagType: "p",
         isBold: true,
         isUnderLine: false,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "low_spaces_para"
       },
       {
         isVideoLink: false,
@@ -2518,6 +2708,16 @@ let stepsContent = [
         isBold: false,
         isUnderLine: false,
         isLink: true,
+        isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
         isList: false
       },
     ]
