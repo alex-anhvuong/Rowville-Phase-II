@@ -38,8 +38,8 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["It is also a good idea to have a think about asking yourself some of the following questions.", "What are your skills and interests?", "What are your weaknesses?", "Can you overcome them with help such as training and mentoring?", "Have you researched the market you are about to enter to find target customers and prospective competitors?",
-          "Have you given a thought to hours of commitment, pricing of product or service?", "If your business may be eligible for any government grants?"],
+        contentData: ["It is also a good idea to have a think about asking yourself some of the following questions.", "What are your skills and interests?", "What are your weaknesses?", "Can you overcome them with help, such as training and mentoring?", "Have you researched the market you are about to enter to find target customers and prospective competitors?",
+          "Have you given a thought to hours of commitment, pricing of product or service?", "Is your business may be eligible for any government grants?"],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -105,7 +105,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["A really useful tool to help with your research is to carry out a SWOT analysis. SWOT stands for Strengths, Weaknesses, Opportunities, and Threats. While your strengths and weaknesses are internal to your business, threats and opportunities are external in the environment. The main strategies behind SWOT analysis are"],
+        contentData: ["A really useful tool to help with your research is to carry out a swot analysis. Swot stands for Strengths, Weaknesses, Opportunities, and Threats. While your strengths and weaknesses are internal to your business, threats and opportunities are external in the environment. The main strategies behind SWOT analysis are"],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -115,7 +115,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["To use your STRENGTHS to take advantage of your OPPORTUNITIES", "Use your STRENGTHS to minimise THREATS.", "Look at ways to reduce your WEAKNESSES by taking advantage of OPPORTUNITIES.", "Work on eliminating or getting rid of the WEAKNESSES to avoid THREATS."],
+        contentData: ["To use your strenghts to take advantage of your opportunities", "Use your strenghts to minimise threats.", "Look at ways to reduce your weaknesses by taking advantage of opportunities.", "Work on eliminating or getting rid of the weaknesses to avoid threats."],
         style: "None",
         tagType: "ol",
         isBold: false,
@@ -436,7 +436,7 @@ let stepsContent = [
     contentList: [
       {
         isVideoLink: false,
-        contentData: ["Understanding and working out the money side of a new business is extremely important. It can be the biggest determining factor in the success of your business in the first few years. At the very beginning of starting a business you have to be able to estimate your start up costs. You also need to know how much money you need to earn from your business to meet your needs and when you can expect to get paid. All of these amounts need to be calculated so you will know how much money it will cost you to start your business and keep it running until you can start to earn an income from it.", "It is great if you can start a business without having to borrow money from a bank or finding an investor but you have to find out how much money you will need and if you have enough to start up on your own, or if you do need to apply for a loan or find an investor."],
+        contentData: ["Understanding and working out the money side of a new business is extremely important. It can be the biggest defining factor in the success of your business in the first few years. At the very beginning of starting a business, you have to be able to estimate your start up costs. You also need to know how much money you need to earn from your business to meet your needs and when you can expect to get paid. All of these amounts need to be calculated so you will know how much money it will cost you to start your business and keep it running until you can start to earn an income from it."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -458,7 +458,29 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["The costs of starting a business can vary so much depending on what type of business you want to create. Your business plan should help you to estimate some of these costs.", "However, there’s a whole list of things to consider when working out what your costs will be so you may need some help. Business Victoria has created a great pre-ready excel template listing lots of common business costs to help get you started."],
+        contentData: ["It is great if you can start a business without having to borrow money from a bank or finding an investor, but you have to find out how much money you will need and if you have enough to start up on your own, or if you do need to apply for a loan or find an investor."],
+        style: "None",
+        tagType: "p",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false,
+        className: "low_spaces_para"
+      },
+      {
+        isVideoLink: false,
+        contentData: [" "],
+        style: "None",
+        tagType: "p",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false,
+        className: ""
+      },
+      {
+        isVideoLink: false,
+        contentData: ["The costs of starting a business can vary greatly depending on what type of business you want to create. Your business plan should help you to estimate some of these costs. However, there’s a whole list of things to consider when working out what your costs will be so you may need some help. Business Victoria has created a great pre-ready excel template listing lots of common business costs to help get you started."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -607,7 +629,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["As well as working out the costs of your business, cash flow, turnover and profit you will also have to find out what taxes are involved and whether or not you will have to register for Good and Services Tax (GST)", "Think Biz strongly recommends you get advice from your account for all your financial matters relating to your business and especially to help you to know what taxes your business will have to register for and be obligated to pay. You will need this information to include in your business pla", "When it comes to money and business keeping good records of all business costs, expenses, transactions and wages is something that every business should do and will be vital to know how your business is going, plan for your businesses future as well as help to prepare and pay your taxes and wages"],
+        contentData: ["As well as working out the costs of your business, cash flow, turnover and profit you will also have to find out what taxes are involved and whether or not you will have to register for Good and Services Tax (GST).", "ThinkBiz strongly recommends you get advice from your account for all your financial matters relating to your business and especially to help you to know what taxes your business will have to register for and be obligated to pay. You will need this information to include in your business plan.", "When it comes to money and business, keeping good records of all business costs, expenses, transactions and wages is something every business should do. It is vital to know  how your business is going to plan for its future, as well as help to prepare and pay your taxes and wages"],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -692,7 +714,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["There are some great clips to watch from the Australian Taxation Office that really help with explaining what you need to know. Think Biz recommends watching the whole services of clips proved by the ATO for taxes, registrations, paying taxes and superannuation for employees."],
+        contentData: ["There are some great clips to watch from the Australian Taxation Office that really help with explaining what you need to know. ThinkBiz recommends watching the whole services of clips provided by the ATO for taxes, registrations, paying taxes and superannuation for employees."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -702,7 +724,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["For an introduction to these clips "],
+        contentData: ["For an introduction to these clips, "],
         style: "None",
         tagType: "span",
         isBold: false,
@@ -734,7 +756,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["For those from overseas starting a business for the first time in Australia "],
+        contentData: ["For those from overseas starting a business for the first time in Australia, "],
         style: "None",
         tagType: "span",
         isBold: false,
@@ -971,9 +993,11 @@ let stepsContent = [
       isList: true,
         className: "low_spaces_para"
       },
+
+      
       {
         isVideoLink: false,
-        contentData: ["A good place to start to work out what insurances you need for your business is usually to talk to a business insurance broker. An insurance broker is a professional at assessing what insurances suit your business and getting quotes on your behalf.  They can sometimes combine a few insurances together for you in a package to reduce the costs. This can sometimes be cheaper than trying to get a lot of individual insurance policies on your own.  However, as insurance can be expensive it pays to shop around."],
+        contentData: ["A good place to start to work out what insurances you need for your business is usually to talk to a business insurance broker. An insurance broker is a professional at assessing what insurances suit your business and getting quotes on your behalf.  They can sometimes combine a few insurances together for you in a package to reduce the costs. This can sometimes be cheaper than trying to get a lot of individual insurance policies on your own.  However, as insurance can be expensive, it pays to shop around."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -1047,7 +1071,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["When starting a new business it can also be important to protect other areas of your business such as your ideas, branding, designs and logos from being used by others."],
+        contentData: ["When starting a new business, it can also be important to protect other areas of your business such as your ideas, branding, designs and logos from being used by others."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -1071,16 +1095,18 @@ let stepsContent = [
         isVideoLink: false,
         contentData: ["Intellectual property", "Copywrite Protection", "Design Protection", "Patent Protection", "Trademark Protection", "Domain name Protection"],
         style: "None",
-        tagType: "p",
+        tagType: "ul",
         isBold: true,
         isUnderLine: false,
         isLink: false,
-        isList: false,
+        isList: true,
         className: "low_spaces_para"
       },
+    
+  
       {
         isVideoLink: false,
-        contentData: ["For more information if any of the above protections maybe relevant for your business "],
+        contentData: ["For more information if any of the above protections maybe relevant for your business, "],
         style: "None",
         tagType: "span",
         isBold: false,
@@ -1130,7 +1156,7 @@ let stepsContent = [
     contentList: [
       {
       isVideoLink: false,
-      contentData: ["Having a website for your business is not compulsory.  However, having a website is a very popular way of marketing your business. It helps people to find out about what your business does and what is has to offer, it can also help to make your business seem more professional."],
+      contentData: ["Having a website for your business is not compulsory,  however, having a website is a very popular way of marketing your business. It helps people to find out about what your business does and what is has to offer, it can also help to make your business seem more professional."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1140,7 +1166,7 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["A domain name is a website address or website name that can be used on the internet to access your website. Once you have your ABN you can register for a domain name."],
+      contentData: ["A domain name is a website address or website name that can be used on the internet to access your website. Once you have your ABN, you can register for a domain name."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1543,7 +1569,7 @@ let stepsContent = [
   contentList: [
     {
       isVideoLink: false,
-      contentData: ["Starting a business for the first time usually means there’s a lot to learn and we sometimes need help with parts of setting up a business that you might not have much experience with. The good news is that there is so much help and support available for almost every aspect of your business so you don’t have to do it alone.", "The even better news is that most of the help and support available can be found locally in your area, is low cost and in some cases even free.", "A great place to start is with your closest Learn Local training centre. Learn Local organisations offer government subsidised short courses and workshops. With more Learn Local’s across Victoria than there is McDonald’s your sure to find one near you. Click here to find your nearest Learn Local."],
+      contentData: ["Starting a business for the first time usually means there’s a lot to learn and we sometimes need help with parts of setting up a business that we might not have much experience with. The good news is that there is so much help and support available for almost every aspect of your business so you don’t have to do it alone.", "The even better news is that most of the help and support available can be found locally in your area, is low cost and in some cases even free.", "A great place to start is with your closest Learn Local training centre. Learn Local organisations offer government subsidised short courses and workshops. With more Learn Local’s across Victoria than there is McDonald’s you're sure to find one near you. Click here to find your nearest Learn Local."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1574,7 +1600,7 @@ let stepsContent = [
 
     {
       isVideoLink: false,
-      contentData: ["Your local council can help with training as well. The Knox council economic and development department is a great council example of offering help and support such as via their Knoxbiz website "],
+      contentData: ["Your local council can help with training as well. The Knox council economic and development department offers help and support through their Knoxbiz website.  "],
       style: "None",
       tagType: "span",
       isBold: false,
@@ -1683,7 +1709,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["As we have a great deal of legislation governing how we employee, manage, pay and dismiss staff in Australia we want to make sure we get it right.  The Fair Work Act 2009 is the law that regulates nearly all areas of the workplace in regards to employing staff.  The National Employment Standards (NES) are the minimum standards that you will need to provide to your staff under this law.  The Fair work website"],
+        contentData: ["As we have a great deal of legislation governing how we employe, manage, pay and dismiss staff in Australia we want to make sure we get it right.  The Fair Work Act 2009 is the law that regulates nearly all areas of the workplace in regards to employing staff.  The National Employment Standards (NES) are the minimum standards that you will need to provide to your staff under this law.  The Fair work website"],
         style: "None",
         tagType: "span",
         isBsold: false,
@@ -1723,7 +1749,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["Thinkbiz highly recommends that you read the Fair Work guide to hiring new staff"],
+        contentData: ["Thinkbiz highly recommends that you read the Fair Work guide to hiring new staff."],
         style: "None",
         tagType: "span",
         isBold: true,
@@ -1733,7 +1759,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: [" which outlines all the basics of what you need to know before you hire anyone.  It is a simple to read document written to help small business understand their legal obligations when employing staff."],
+        contentData: [" It outlines all the basics of what you need to know before you hire anyone.  It is a simple to read document written to help small business understand their legal obligations when employing staff."],
         style: "None",
         tagType: "span",
         isBold: false,
@@ -2333,7 +2359,7 @@ let stepsContent = [
     contentList: [
       {
       isVideoLink: false,
-      contentData: ["To work out the best place to operate your business will be determined by many factors.  The most important being the type of business you want to have."],
+      contentData: ["Working out the best place to operate your business will be determined by many factors, the most important being the type of business you want to have."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -2343,7 +2369,7 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["Business types such as an on-line business, a trade working on site, making a product yourself to sell or providing a personal service such as consulting, counselling, wellbeing or a service such as massage, beauty, hair dressing then working from home would probably be the cheapest, easiest and most convenient place to work from."],
+      contentData: ["Business types such as an online business, a trade working on site, making a product yourself to sell, providing a personal service such as consulting, counselling and wellbeing or a service such as massage, beauty or hair dressing, then working from home would probably be the cheapest, easiest and most convenient place to work from."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -2353,7 +2379,7 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["However, if you want to sell a product that needs to be manufactured on a bigger scale or open a restaurant, shop, holiday accommodation or sell a professional service that needs an office or showroom than you will have lots to consider when looking for a building away from your home."],
+      contentData: ["However, if you want to sell a product that needs to be manufactured on a bigger scale or open a restaurant, shop, holiday accommodation or sell a professional service that needs an office or showroom, then you will have lots to consider when looking for a building away from your home."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -2363,7 +2389,7 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["You will have to think of things like how much space you need."],
+      contentData: ["You will have to think of things such as :"],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -2374,7 +2400,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["What kind of space?", "Where is the best location?", "Is the location accessible to your customers, is there public transport nearby?", "Is there parking available for your customers?", "Is it near the customers you want to attract?", "Is it too close to competition?", "Does the location suit your business type and image?", "Is the location practical to travel to everyday?", "Will you need a permit to carry out your business at that location?", "Would there be issues with your business operation and the local council?", "Will you buy or lease an existing building, factory, shop or office etc...?", "Is the space set up to be safe for you and or employees to operate from?", "Will you have to make modifications to the premises or extend?", "Is it possible to extend the premises in the future if needed?", "Will you need a planning or building permit to carry out any works on the premises?", "How much will it costs to prepare the premises to get it to what you need to it to be?", "Will you have to buy land and build what you need on it?", "What costs and timeframes would be involved in a new build?"],
+        contentData: [" How much space you need?" , "What kind of space?", "Where is the best location?", "Is the location accessible to your customers, is there public transport nearby?", "Is there parking available for your customers?", "Is it near the customers you want to attract?", "Is it too close to competition?", "Does the location suit your business type and image?", "Is the location practical to travel to everyday?", "Will you need a permit to carry out your business at that location?", "Would there be issues with your business operation and the local council?", "Will you buy or lease an existing building, factory, shop or office etc...?", "Is the space set up to be safe for you and or employees to operate from?", "Will you have to make modifications to the premises or extend?", "Is it possible to extend the premises in the future if needed?", "Will you need a planning or building permit to carry out any works on the premises?", "How much will it costs to prepare the premises to get it to what you need to it to be?", "Will you have to buy land and build what you need on it?", "What costs and timeframes would be involved in a new build?"],
         style: "None",
         tagType: "ul",
         isBold: false,
@@ -2385,7 +2411,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["As you can see choosing the right base for your business needs a lot of thought, research and planning before you decide? "],
+        contentData: ["As you can see, choosing the right base for your business needs a lot of thought, research and planning before you decide? "],
         style: "None",
         tagType: "span",
         isBold: false,
