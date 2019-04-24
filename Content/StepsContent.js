@@ -27,7 +27,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["Once you have an idea and the motivation to start your own business, the first thing you need to do is research everything you can about your business idea. Find out all you can about the product or service you want to sell or provide. Research similar industries, trends in the market and if there’s going to be competition you need to think about. Speak to as many people as you can that have knowledge or experience in the industry, with the product or service or who have experience and knowledge about small business in general. You also want to find a way to test out your idea if you can to make sure your idea is going to make a profit."],
+        contentData: ["Once you have an idea and the motivation to start your own business, the first thing you need to do is research everything you can about your business idea. Find out all you can about the product or service you want to sell or provide. Research similar industries, trends in the market and if there is going to be competition you need to think about. Speak to as many people as you can that have knowledge or experience in the industry, with the product or service or who have experience and knowledge about small business in general. You also want to find a way to test out your idea if you can to make sure your idea is going to make a profit."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -39,7 +39,7 @@ let stepsContent = [
       {
         isVideoLink: false,
         contentData: ["It is also a good idea to have a think about asking yourself some of the following questions.", "What are your skills and interests?", "What are your weaknesses?", "Can you overcome them with help, such as training and mentoring?", "Have you researched the market you are about to enter to find target customers and prospective competitors?",
-          "Have you given a thought to hours of commitment, pricing of product or service?", "Is your business may be eligible for any government grants?"],
+          "Have you given a thought to hours of commitment, pricing of product or service?", "Is your business eligible for any government grants?"],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -105,7 +105,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["A really useful tool to help with your research is to carry out a swot analysis. Swot stands for Strengths, Weaknesses, Opportunities, and Threats. While your strengths and weaknesses are internal to your business, threats and opportunities are external in the environment. The main strategies behind SWOT analysis are:"],
+        contentData: ["A really useful tool to help with your research is to carry out a SWOT analysis. SWOT stands for Strengths, Weaknesses, Opportunities, and Threats. While your strengths and weaknesses are internal to your business, threats and opportunities are external in the environment. The main strategies behind SWOT analysis are:"],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -125,7 +125,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["For more information on SWOT analysis watch a quick video on it and to download a free template to complete a swot analysis for yourself "],
+        contentData: ["For more information on SWOT analysis watch a quick video on it and to download a free template to complete a SWOT analysis for yourself "],
         style: "None",
         tagType: "span",
         isBold: false,
@@ -197,7 +197,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["Choosing the right structure for your business is very important, as it affects various aspects of business like ownership, taxation, legal obligations, potential personal liabilities and licencing. Therefore, it is important to make an informed decision when choosing a structure for your business as all structures come with their own advantages and disadvantages."],
+        contentData: ["Choosing the right structure for your business is very important, as it affects various aspects of business like ownership, taxation, legal obligations, potential personal liabilities and licensing. Therefore, it is important to make an informed decision when choosing a structure for your business as all structures come with their own advantages and disadvantages."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -384,19 +384,41 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["Register your business name"],
+        contentData: ["",""],
         style: "None",
-        tagType: "p",
-        isBold: true,
+        tagType: "br",
+        isBold: false,
         isUnderLine: false,
         isLink: false,
         isList: false
       },
       {
         isVideoLink: false,
+        contentData: ["Register your business name"],
+        style: "None",
+        tagType: "p",
+        isBold: true,
+        isUnderLine: false,
+        isLink: false,
+        isList: false,
+        className: "low_spaces_para "
+      },
+      {
+        isVideoLink: false,
         contentData: ["When you apply for an ABN, it’s also a good time to register your business name if you’re going to use one. If your business name is just going to be you or your partner’s first name and surname, then there is no need to register for a business name. However, if you’re going to trade under a different name from your own name, then you will need to register your business name."],
         style: "None",
         tagType: "p",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false,
+        className: "low_spaces_para "
+      },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
         isBold: false,
         isUnderLine: false,
         isLink: false,
@@ -1185,7 +1207,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["Intellectual property", "Copywrite Protection", "Design Protection", "Patent Protection", "Trademark Protection", "Domain name Protection"],
+        contentData: ["Intellectual Property", "Copyright Protection", "Design Protection", "Patent Protection", "Trademark Protection", "Domain Name Protection"],
         style: "None",
         tagType: "ul",
         isBold: true,
@@ -1194,8 +1216,6 @@ let stepsContent = [
         isList: true,
         className: "low_spaces_para"
       },
-
-
       {
         isVideoLink: false,
         contentData: [""],
@@ -1351,7 +1371,7 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["A website can be important to your business’s success and growth. Some of the benefits of having a website for your business may include:"],
+      contentData: ["A website can be important to your businesses success and growth. Some of the benefits of having a website for your business may include:"],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1404,7 +1424,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["To register your domain name click here."],
+        contentData: ["To register your domain name, click here."],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -1496,7 +1516,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["Most businesses will have a marketing plan. Having a plan to follow will help you to keep thinking about and taking steps to ensure you are contently attracting your target market customers.", "To help with your business, Victoria offers some great information and has a ready-made marketing template for you to use. Just"],
+      contentData: ["Most businesses will have a marketing plan. Having a plan to follow will help you to keep thinking about and taking steps to ensure you are contently attracting your target market customers."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1598,24 +1618,45 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["Advertising"],
+      contentData: ["",""],
       style: "None",
-      tagType: "p",
-      isBold: true,
+      tagType: "br",
+      isBold: false,
       isUnderLine: false,
       isLink: false,
       isList: false
     },
     {
       isVideoLink: false,
-      contentData: ["Advertising, in some ways, is usually very important for almost all businesses, as it enables people to find out about your business and what you offer. It is telling people what product or service you are selling and how and where they can buy it. If no one knows you exist, it’s going to be very hard to get customers. Usually the more advertising you can do the better."],
+      contentData: ["Advertising"],
+      style: "None",
+      tagType: "p",
+      isBold: true,
+      isUnderLine: false,
+      isLink: false,
+      isList: false,
+      className: "low_spaces_para"
+    },
+    {
+      isVideoLink: false,
+      contentData: ["Advertising, in some ways, is usually very important for almost all businesses, as it enables people to find out about your business and what you offer. It is telling people what product or service you are selling and how and where they can buy it. If no one knows you exist, it’s going to be very hard to get customers. Usually the more advertising you can do, the better."],
       style: "None",
       tagType: "p",
       isBold: false,
       isUnderLine: false,
       isLink: false,
       isList: false,
-      className: ""
+      className: "low_spaces_para"
+    },
+    {
+      isVideoLink: false,
+      contentData: [""],
+      style: "None",
+      tagType: "br",
+      isBold: false,
+      isUnderLine: false,
+      isLink: false,
+      isList: false
     },
     {
       isVideoLink: false,
@@ -1641,7 +1682,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["These are just a few to give you an idea but there are endless ways to advertise your business, your budget and type of product or service will determine what suits your business best."],
+      contentData: ["These are just a few to give you an idea, but there are endless ways to advertise your business, your budget and type of product or service will determine what suits your business best."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1745,6 +1786,27 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
+      contentData: ["Starting a business for the first time usually means there’s a lot to learn and we sometimes need help with parts of setting up a business that you might not have much experience with. The good news is that there is so much help and support available for almost every aspect of your business so you don’t have to do it alone."],
+      style: "None",
+      tagType: "p",
+      isBold: false,
+      isUnderLine: false,
+      isLink: false,
+      isList: false
+    },
+    {
+      isVideoLink: false,
+      contentData: ["The even better news is that most of the help and support available can be found locally in your area, is low cost and in some cases even free.","A great place to start is with your closest Learn Local training centre. Learn Local organisations offer government subsidised short courses and workshops. With more Learn Local’s across Victoria than there is McDonald’s your sure to find one near you. Click below to find your nearest Learn Local."],
+      style: "None",
+      tagType: "p",
+      isBold: false,
+      isUnderLine: false,
+      isLink: false,
+      isList: false,
+      className: "low_spaces_para"
+    },
+    {
+      isVideoLink: false,
       contentData: ["http://learnlocal.org.au/"],
       style: "None",
       tagType: "a",
@@ -1818,7 +1880,7 @@ let stepsContent = [
       isVideoLink: false,
       contentData: ["click here"],
       style: "None",
-      tagType: "span",
+      tagType: "a",
       isBold: false,
       isUnderLine: true,
       href: "http://www.business.vic.gov.au/events",
@@ -1855,6 +1917,16 @@ let stepsContent = [
       isLink: true,
       isList: false
     },
+    {
+      isVideoLink: false,
+      contentData: ["",""],
+      style: "None",
+      tagType: "br",
+      isBold: false,
+      isUnderLine: false,
+      isLink: false,
+      isList: false
+    },
   ]
   },
   //content stored for step 12
@@ -1875,7 +1947,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["As we have a great deal of legislation governing how we employ, manage, pay and dismiss staff in Australia, we want to make sure we get it right.  The Fair Work Act 2009 is the law that regulates nearly all areas of the workplace in regards to employing staff.  The National Employment Standards (NES) are the minimum standards that you will need to provide to your staff under this law.  The Fair work website"],
+        contentData: ["As we have a great deal of legislation governing how we employ, manage, pay and dismiss staff in Australia, we want to make sure we get it right.  The Fair Work Act 2009 is the law that regulates nearly all areas of the workplace in regards to employing staff.  The National Employment Standards (NES) are the minimum standards that you will need to provide to your staff under this law.  The Fair work website "],
         style: "None",
         tagType: "span",
         isBsold: false,
@@ -1885,7 +1957,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: [" www.fairwork.gov.au"],
+        contentData: ["https://www.fairwork.gov.au"],
         style: "None",
         tagType: "a",
         isBold: false,
@@ -2066,7 +2138,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: [" correct amount of money you will need to pay your staff"],
+        contentData: [" correct amount of money you will need to pay your staff,"],
         style: "None",
         tagType: "span",
         isBold: true,
@@ -2297,7 +2369,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: [" workers compensation insurance"],
+        contentData: [" workers compensation insurance "],
         style: "None",
         tagType: "span",
         isBold: true,
@@ -2355,6 +2427,16 @@ let stepsContent = [
         isLink: true,
         isList: false
       },
+      {
+        isVideoLink: false,
+        contentData: ["",""],
+        style: "None",
+        tagType: "br",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
     ]
   },
   {
@@ -2375,7 +2457,7 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["Besides the various taxation registrations required for business as discussed in Step 3, there are numerous types of registrations, permits and licences required in Victoria to set up and operate your business legally.  Some businesses require more registrations, permits and licences than others.  Some businesses may only have registrations required and may not require any permits or licences."],
+      contentData: ["Besides the various taxation registrations required for a business as discussed in Step 3, there are numerous types of registrations, permits and licences required in Victoria to set up and operate your business legally.  Some businesses require more registrations, permits and licences than others.  Some businesses may only have registrations required and may not require any permits or licences."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -2385,13 +2467,14 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["What type of registrations, permits and licences you require for your business depends on a wide range of things such as:"],
+      contentData: ["What type of registrations, permits and licences you require for your business depends on a wide range of things, such as:"],
       style: "None",
       tagType: "p",
       isBold: false,
       isUnderLine: false,
       isLink: false,
-      isList: false
+      isList: false,
+      className: "low_spaces_para"
       },
       {
       isVideoLink: false,
@@ -2496,7 +2579,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["clicking on the link below"],
+        contentData: ["clicking on the link below."],
         style: "None",
         tagType: "a",
         href: "https://www.vic.gov.au/business-industry/business-practice-management/registration-permits-licences.html",
@@ -2557,7 +2640,7 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["Working out the best place to operate your business will be determined by many factors; the most important being the type of business you want to have."],
+      contentData: ["To work out the best place to operate your business will be determined by many factors; the most important being the type of business you want to have."],
       style: "None",
       tagType: "p",
       isBold: false,

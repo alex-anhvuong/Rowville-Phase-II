@@ -103,6 +103,7 @@ function loadStepsData(stepName, numberOfStep) {
 
             if (contentObj.isBold) {
               paraTag.style.fontWeight = "900";
+              paraTag.style.fontFamily = "'Bitter', serif";
             }
             levelDiv.appendChild (paraTag);
           }
