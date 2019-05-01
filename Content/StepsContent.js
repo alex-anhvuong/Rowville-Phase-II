@@ -327,7 +327,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: true,
@@ -359,7 +360,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -443,7 +445,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: true,
@@ -475,7 +478,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -633,7 +637,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -686,7 +691,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -738,7 +744,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: true,
@@ -770,7 +777,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -823,7 +831,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: true,
@@ -855,7 +864,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: true,
@@ -950,7 +960,8 @@ let stepsContent = [
       isBold: false,
       isUnderLine: true,
       isLink: false,
-      isList: false
+      isList: false,
+      className: "click_below"
     },
     {
       isVideoLink: false,
@@ -1128,7 +1139,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -1245,7 +1257,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -1543,7 +1556,8 @@ let stepsContent = [
       isBold: false,
       isUnderLine: true,
       isLink: false,
-      isList: false
+      isList: false,
+      className: "click_below"
     },
     {
       isVideoLink: false,
@@ -1594,7 +1608,8 @@ let stepsContent = [
       isBold: false,
       isUnderLine: true,
       isLink: false,
-      isList: false
+      isList: false,
+      className: "click_below"
     },
     {
       isVideoLink: false,
@@ -1701,7 +1716,7 @@ let stepsContent = [
       isUnderLine: true,
       isLink: false,
       isList: false,
-      className: ""
+      className: "click_below"
     },
     {
       isVideoLink: false,
@@ -1885,7 +1900,8 @@ let stepsContent = [
       isUnderLine: true,
       href: "http://www.business.vic.gov.au/events",
       isLink: false,
-      isList: false
+      isList: false,
+      className: "click_below"
     },
     {
       isVideoLink: false,
@@ -2094,7 +2110,8 @@ let stepsContent = [
         href: "https://www.fairwork.gov.au/ArticleDocuments/712/guide-to-taking-on-an-apprentice.docx.aspx",
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -2315,7 +2332,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -2525,7 +2543,8 @@ let stepsContent = [
         href: "https://ablis.business.gov.au/search/activity",
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -2709,7 +2728,8 @@ let stepsContent = [
         isBold: false,
         isUnderLine: true,
         isLink: false,
-        isList: false
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
