@@ -2496,7 +2496,7 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["What your business does", "How it is set up", "Where you're going to operate your business from", "If you are buying and selling goods from overseas", "If you are providing a service to customers/clients and what that service involves", "If the service requires a qualification to perform the service", "Whether you are going to employ people or not", "If you are going to have any effect on the environment"],
+      contentData: ["What your business does", "How it is set up", "Where you're going to operate your business from", "If you are buying and selling goods from overseas", "If you are providing a service to customers/ clients and what that service involves", "If the service requires a qualification to perform the service", "Whether you are going to employ people or not", "If you are going to have any effect on the environment"],
       style: "None",
       tagType: "ul",
       isBold: false,
