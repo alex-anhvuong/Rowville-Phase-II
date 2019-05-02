@@ -24,7 +24,7 @@ function loadStepsData(stepName, numberOfStep) {
   //previousButton.onclick = function() {previousButtonAction()};
   //buttonWrapper.appendChild(previousButton);
   //buttonWrapper.appendChild(nextButton);
-  levelDiv.appendChild(createButtonAndreturnDiv());
+  levelDiv.appendChild(createButtonAndreturnDiv(numberOfStep));
 
   //  Create the heading: "Step {number}"
   let stepHeading = createElement("h1", "Step", "", "step-and-number");
@@ -113,22 +113,37 @@ function loadStepsData(stepName, numberOfStep) {
     }
 
   }
-  levelDiv.appendChild(createButtonAndreturnDiv());
+  let stepNumberHeading2 = createElement("h1", 'Step ' + numberOfStep, "", "step-and-number");
+  levelDiv.appendChild(stepNumberHeading2);
+  levelDiv.appendChild(createButtonAndreturnDiv(numberOfStep));
   document.getElementById("mainContainerDiv").appendChild(levelDiv);
 }
 
-function createButtonAndreturnDiv () {
+function createButtonAndreturnDiv (numberOfStep) {
 
   let buttonWrapper = createElement("div", "", "", "btn-container");
-  let previousButton = createElement("button", "Previous Step", "", "prevButtonClass");
-  let nextButton = createElement("button", "Next Step", "", "nextButtonClass");
-
-  nextButton.onclick = function() {nextButtonAction()};
-  previousButton.onclick = function() {previousButtonAction()};
-  buttonWrapper.appendChild(previousButton);
-  buttonWrapper.appendChild(nextButton);
-
-  return buttonWrapper;
+  
+  if (numberOfStep == 1) {
+    let nextButton = createElement("button", "Next Step", "", "nextButtonClassFp");
+    nextButton.onclick = function() {nextButtonAction()};
+    buttonWrapper.appendChild(nextButton);
+    return buttonWrapper;
+  }
+  else if (numberOfStep == stepsContent.length) {
+    let previousButton = createElement("button", "Previous Step", "", "prevButtonClassLp");
+    previousButton.onclick = function() {previousButtonAction()};
+    buttonWrapper.appendChild(previousButton);
+    return buttonWrapper;
+  }
+  else {
+    let nextButton = createElement("button", "Next Step", "", "nextButtonClass");
+    let previousButton = createElement("button", "Previous Step", "", "prevButtonClass");
+    nextButton.onclick = function() {nextButtonAction()};
+    previousButton.onclick = function() {previousButtonAction()};
+    buttonWrapper.appendChild(nextButton);
+    buttonWrapper.appendChild(previousButton);
+    return buttonWrapper;
+  }
 }
 
 /*this function is being called when clicking nextButton button for switching to next step. Switch statement is used to change the arguments such as  step name and number for loadStepsData function*/

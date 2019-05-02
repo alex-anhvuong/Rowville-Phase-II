@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.prevButtonClass, .nextButtonClass {
+.prevButtonClass, .nextButtonClass, .nextButtonClassFp, .prevButtonClassLp {
   background: #0277BD;
   border: none;
   font-size: 0.65em;
@@ -30,11 +30,24 @@
   right: 0;
 }
 
+.nextButtonClassFp {
+  border-radius: 50px;
+  margin-left: auto; 
+  margin-right: auto;
+  right: 0;
+}
+
 .prevButtonClass {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   margin-left: 0;
   position: absolute;
+  left: 0;
+}
+
+.prevButtonClassLp {
+  border-radius: 50px;
+  margin: 0 auto;
   left: 0;
 }
 
