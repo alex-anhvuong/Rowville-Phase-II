@@ -38,6 +38,10 @@
   left: 0;
 }
 
+.click_below {
+  word-break: normal;
+}
+
 @media only screen and (max-width: 475px) {
   .nextButtonClass, .prevButtonClass {
     word-spacing: 50px;
