@@ -80,6 +80,10 @@ li {
   word-break: break-word;
 }
 
+.centered-element {
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
   iframe {
     border: 10px solid black;

@@ -26,6 +26,17 @@ let stepsContent = [
         className: "videoLink"
       },
       {
+      isVideoLink: false,
+      contentData: ["Transcript:"],
+      style: "None",
+      tagType: "p",
+      isBold: true,
+      isUnderLine: false,
+      isLink: false,
+      isList: false,
+      className: "centered-element"
+      },
+      {
         isVideoLink: false,
         contentData: ["Once you have an idea and the motivation to start your own business, the first thing you need to do is research everything you can about your business idea. Find out all you can about the product or service you want to sell or provide. Research similar industries, trends in the market and if there is going to be competition you need to think about. Speak to as many people as you can that have knowledge or experience in the industry, with the product or service or who have experience and knowledge about small business in general. You also want to find a way to test out your idea if you can to make sure your idea is going to make a profit."],
         style: "None",
@@ -1057,6 +1068,17 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
+      contentData: ["Transcript:"],
+      style: "None",
+      tagType: "p",
+      isBold: true,
+      isUnderLine: false,
+      isLink: false,
+      isList: false,
+      className: "centered-element"
+      },
+      {
+      isVideoLink: false,
       contentData: ["Insuring your business gives you the protection and peace of mind that you will be covered if something goes wrong with your premises, such as fire, burglary or damage. Insurance is also a way of making sure you can cover costs that may come about from injury, damage or financial loss caused by your product or service or during the operation of your business.  You’ll also need special insurances like work cover when employing staff."],
       style: "None",
       tagType: "p",
@@ -1299,6 +1321,17 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
+      contentData: ["Transcript:"],
+      style: "None",
+      tagType: "p",
+      isBold: true,
+      isUnderLine: false,
+      isLink: false,
+      isList: false,
+      className: "centered-element"
+      },
+      {
+      isVideoLink: false,
       contentData: ["Having a website for your business is not compulsory,  however, having a website is a very popular way of marketing your business. It helps people to find out what your business does and what is has to offer, it can also help to make your business seem more professional."],
       style: "None",
       tagType: "p",
@@ -1471,6 +1504,17 @@ let stepsContent = [
       isLink: false,
       isList: false,
       className: "videoLink"
+    },
+    {
+    isVideoLink: false,
+    contentData: ["Transcript:"],
+    style: "None",
+    tagType: "p",
+    isBold: true,
+    isUnderLine: false,
+    isLink: false,
+    isList: false,
+    className: "centered-element"
     },
     {
       isVideoLink: false,
@@ -1783,6 +1827,17 @@ let stepsContent = [
       isLink: false,
       isList: false,
       className: "videoLink"
+    },
+    {
+    isVideoLink: false,
+    contentData: ["Transcript:"],
+    style: "None",
+    tagType: "p",
+    isBold: true,
+    isUnderLine: false,
+    isLink: false,
+    isList: false,
+    className: "centered-element"
     },
     {
       isVideoLink: false,
@@ -2457,6 +2512,17 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
+      contentData: ["Transcript:"],
+      style: "None",
+      tagType: "p",
+      isBold: true,
+      isUnderLine: false,
+      isLink: false,
+      isList: false,
+      className: "centered-element"
+      },
+      {
+      isVideoLink: false,
       contentData: ["Besides the various taxation registrations required for a business as discussed in Step 3, there are numerous types of registrations, permits and licences required in Victoria to set up and operate your business legally.  Some businesses require more registrations, permits and licences than others.  Some businesses may only have registrations required and may not require any permits or licences."],
       style: "None",
       tagType: "p",
@@ -2637,6 +2703,17 @@ let stepsContent = [
         isLink: false,
         isList: false,
         className: "videoLink"
+      },
+      {
+      isVideoLink: false,
+      contentData: ["Transcript:"],
+      style: "None",
+      tagType: "p",
+      isBold: true,
+      isUnderLine: false,
+      isLink: false,
+      isList: false,
+      className: "centered-element"
       },
       {
       isVideoLink: false,
