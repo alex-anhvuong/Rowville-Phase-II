@@ -18,10 +18,10 @@
         passhash VARCHAR(128) NOT NULL
     ); CREATE TABLE IF NOT EXISTS analytics (
         id INT(20) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
-        dtstamp TIMESTAMP NOT NULL,
-        pageaccessed VARCHAR(100) NOT NULL,
-        devicetype VARCHAR(50) NOT NULL,
-        ipaddr VARCHAR(16) NOT NULL
+        dt_stamp TIMESTAMP NOT NULL,
+        page_accessed VARCHAR(100) NOT NULL,
+        device_type VARCHAR(50) NOT NULL,
+        ip_address VARCHAR(16) NOT NULL
     ); CREATE TABLE IF NOT EXISTS userprog (
         id INT(9) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
         user_id INT(9) NOT NULL,
