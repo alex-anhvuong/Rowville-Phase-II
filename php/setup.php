@@ -27,6 +27,12 @@
             )";
 
             $this->_dbconn->exec($sql);
+
+            $this->_createAdminUser();
+        }
+
+        private function _createAdminUser() {
+            
         }
     }
 
