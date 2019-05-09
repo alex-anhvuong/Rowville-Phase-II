@@ -29,19 +29,11 @@
             $this->_dbconn->exec($sql);
 
             $this->_createAdminUser();
-<<<<<<< HEAD
-          }
-
-          private function _createAdminUser() {
-
-          }
-=======
         }
 
         private function _createAdminUser() {
-            
+
         }
->>>>>>> d4722eb4cd1600a25b384756e5e43eddb2a8f936
     }
 
 ?>

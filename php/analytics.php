@@ -3,6 +3,10 @@
 
     class Analytics Extends Database {
 
+        public function __construct() {
+          parent::__construct();
+        }
+
         private function getClientOS() {
           $agent = strtolower($_SERVER['HTTP_USER_AGENT']);
           if(strpos($agent, 'windows nt')) {
@@ -41,17 +45,17 @@
         function addLogEntry() {
           date_default_timezone_set('Australia/Melbourne');
           $userAccessTime = date('Y-m-d h:i:s', time());
-          echo $userAccessTime."<br>";
+          // echo $userAccessTime."<br>";
 
           $userDeviceOS = $this->getClientOS();
-          echo $userDeviceOS."<br>";
+          // echo $userDeviceOS."<br>";
 
           $userIPAddr = $this->getRealIpAddr();
-          echo $userIPAddr;
+          // echo $userIPAddr;
 
           $sql = "INSERT INTO analytics (dt_stamp, page_accessed, device_type, ip_address) VALUES (?, ?, ?, ?)";
-          $params = [$userAccessTime, $userDeviceOS, 0, $userIPAddr];
-          executesql($myLocalCon, $sql, $params);
+          $params = [$userAccessTime, 0, $userDeviceOS, $userIPAddr];
+          $this->executesql($this->_dbconn, $sql, $params);
         }
     }
 
