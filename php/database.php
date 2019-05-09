@@ -34,5 +34,9 @@
         function __destroy() {
             $this->_dbconn = null;
         }
+
+        protected function executesql($sql, $params) {
+            
+        }
     }
 ?>
