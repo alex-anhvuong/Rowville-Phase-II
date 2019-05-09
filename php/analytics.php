@@ -3,7 +3,7 @@
 
     class Analytics Extends Database {
         function addLogEntry() {
-
+            
         }
     }
 
