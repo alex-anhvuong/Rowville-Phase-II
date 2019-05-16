@@ -3,7 +3,7 @@
     define('DBHOST', 'localhost');
     define('DBNAME', 'thinkbiz');
     define('DBUSER', 'root');
-    define('DBPASS', 'PHPhaters12!');
+    define('DBPASS', 'phphaters12!');
 
     // DATABASE SALT
     define('DBSALT', 'ADD_SALT_HERE');

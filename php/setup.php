@@ -26,6 +26,7 @@
                 content_html LONGTEXT NOT NULL
             )";
 
+            var_dump($this->_dbconn);
             $this->_dbconn->exec($sql);
 
             $this->_createAdminUser();

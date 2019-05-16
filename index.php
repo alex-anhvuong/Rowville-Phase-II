@@ -42,7 +42,7 @@
 </head>
 
 <body onload="changeContentBasedOnURL();">
-  <?php
+  <!-- <?php
     include 'php/setup.php';
     include 'php/analytics.php';
     $setup = new DatabaseSetup;
@@ -51,7 +51,7 @@
 
     $analytics = new Analytics;
     $analytics->addLogEntry();
-  ?>
+  ?> -->
 <div id="navbar-header">
 </div>
 <div id="mainContainerDiv">
