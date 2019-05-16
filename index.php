@@ -42,21 +42,21 @@
 </head>
 
 <body onload="changeContentBasedOnURL();">
-  <!-- <?php
-    include 'php/setup.php';
-    include 'php/analytics.php';
-    $setup = new DatabaseSetup;
+<?php
+  include 'php/setup.php';
+  include 'php/analytics.php';
+  $setup = new DatabaseSetup;
 
-    $setup->createTables();
+  $setup->createTables();
 
-    $analytics = new Analytics;
-    if (isset($_GET['Steps']) && $_GET['Steps'] != '') {
-      $analytics->addLogEntry($_GET['Steps']);
-    } else {
-      $analytics->addLogEntry("home");
-    }
+  $analytics = new Analytics;
+  if (isset($_GET['Steps']) && $_GET['Steps'] != '') {
+    $analytics->addLogEntry($_GET['Steps']);
+  } else {
+    $analytics->addLogEntry("home");
+  }
 
-  ?> -->
+?>
 <div id="navbar-header">
 </div>
 <div id="mainContainerDiv">

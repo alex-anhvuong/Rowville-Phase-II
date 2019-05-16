@@ -10,7 +10,9 @@ let numberOfSteps = [
 
     id: 0,
 
-    isActive: true
+    isActive: true,
+
+    logoSrc: 'step1compass-solid.svg'
 
   },
 
@@ -22,7 +24,9 @@ let numberOfSteps = [
 
     id: 1,
 
-    isActive: true
+    isActive: true,
+
+    logoSrc: 'step2landmark-solid.svg'
 
   },
 
@@ -34,7 +38,9 @@ let numberOfSteps = [
 
     id: 2,
 
-    isActive: true
+    isActive: true,
+
+    logoSrc: 'step3file-signature-solid.svg'
 
   },
 
@@ -46,7 +52,9 @@ let numberOfSteps = [
 
     id: 3,
 
-    isActive: true
+    isActive: true,
+
+    logoSrc: 'step4dollar-sign-solid.svg'
 
   },
 
@@ -58,7 +66,9 @@ let numberOfSteps = [
 
     id: 4,
 
-    isActive: true
+    isActive: true,
+
+    logoSrc: 'step5seedling-solid.svg'
 
   },
 
@@ -70,7 +80,9 @@ let numberOfSteps = [
 
     id: 5,
 
-    isActive: true
+    isActive: true,
+
+    logoSrc: 'step6lock-solid.svg'
 
   },
 
@@ -82,7 +94,9 @@ let numberOfSteps = [
 
     id: 6,
 
-    isActive: true
+    isActive: true,
+
+    logoSrc: 'step7code-solid.svg'
 
   },
 
@@ -94,7 +108,9 @@ let numberOfSteps = [
 
     id: 7,
 
-    isActive: true
+    isActive: true,
+
+    logoSrc: 'step8registered-regular.svg'
 
   },
 
@@ -106,7 +122,9 @@ let numberOfSteps = [
 
     id: 8,
 
-    isActive: true
+    isActive: true,
+
+    logoSrc: 'step9search-location-solid.svg'
 
   },
 
@@ -118,7 +136,9 @@ let numberOfSteps = [
 
     id: 9,
 
-    isActive: true
+    isActive: true,
+
+    logoSrc: 'step10bullhorn-solid.svg'
 
   },
 
@@ -130,7 +150,9 @@ let numberOfSteps = [
 
     id: 10,
 
-    isActive: true
+    isActive: true,
+
+    logoSrc: 'step11question-circle-regular.svg'
 
   },
 
@@ -142,7 +164,9 @@ let numberOfSteps = [
 
     id: 11,
 
-    isActive: true
+    isActive: true,
+
+    logoSrc: 'step12hands-helping-solid.svg'
 
   },
 

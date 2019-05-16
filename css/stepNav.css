@@ -35,7 +35,7 @@ clear: both;
 
 .step {
 position: relative;
-padding: 25px;
+padding: 20px;
 margin: 8px;
 margin-left: 0px;
 box-shadow: 8px 0 8px -8px rgba(0, 0, 0, 0.5);
@@ -46,11 +46,20 @@ word-break: normal;
 
 .step-content {
 display: inline-block;
+width: 70%;
 color: #fff;
 font-family: 'Droid Sans', sans-serif;
 font-weight: bold;
 white-space: nowrap;
 margin-bottom: 8px;
+}
+
+.step-logo {
+  fill: white;
+  display: inline-block;
+  margin-right: 20px;
+  width: 20%;
+  height: auto;
 }
 
 .bg-0 { background: #255197; }

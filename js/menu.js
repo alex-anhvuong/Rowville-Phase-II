@@ -22,7 +22,7 @@ function drawHeader(){
 
     var homeLink = createElement("a", "Home", "", "homeLink");
     homeDiv.appendChild(homeLink);
-    homeLink.href= "./index.html";
+    homeLink.href= "./index.php";
 
     var StepsDiv = createElement("div", "", "", "StepsDiv");
     topNavDiv.appendChild(StepsDiv);

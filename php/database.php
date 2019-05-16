@@ -30,7 +30,6 @@
                 $this->connerror = $e;
             }
 
-            var_dump($conn);
         }
 
         function __destroy() {

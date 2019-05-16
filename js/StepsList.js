@@ -48,6 +48,8 @@ function createDifferentStepsButtons () {
 
       //create step content
 
+      let stepLogo = createElement("img", "", "", "step-logo");
+      stepLogo.src = 'icons/' + numberOfSteps[index].logoSrc;
       let stepContent = createElement("span", numberOfSteps[index].id + 1 + ". " + numberOfSteps[index].title, "", "step-content");
 
 
@@ -55,6 +57,7 @@ function createDifferentStepsButtons () {
 
       stepAnchor.appendChild(stepLabel);
 
+      stepLabel.appendChild(stepLogo);
       stepLabel.appendChild(stepContent);
 
 
