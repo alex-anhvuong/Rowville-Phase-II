@@ -54,7 +54,7 @@
           // echo $userIPAddr;
 
           $sql = "INSERT INTO analytics (dt_stamp, page_accessed, device_type, ip_address) VALUES (?, ?, ?, ?)";
-          $params = [$userAccessTime, 0, $userDeviceOS, $userIPAddr];
+          $params = [$userAccessTime, $page, $userDeviceOS, $userIPAddr];
           $this->executesql($this->_dbconn, $sql, $params);
         }
     }
