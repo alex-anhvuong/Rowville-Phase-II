@@ -42,7 +42,7 @@
         	return $ip;
         }
 
-        function addLogEntry() {
+        function addLogEntry($page = "") {
           date_default_timezone_set('Australia/Melbourne');
           $userAccessTime = date('Y-m-d h:i:s', time());
           // echo $userAccessTime."<br>";

@@ -50,7 +50,12 @@
     $setup->createTables();
 
     $analytics = new Analytics;
-    $analytics->addLogEntry();
+    if (isset($_GET['Steps']) && $_GET['Steps'] != '') {
+      $analytics->addLogEntry($_GET['Steps']);
+    } else {
+      $analytics->addLogEntry("home");
+    }
+
   ?> -->
 <div id="navbar-header">
 </div>
