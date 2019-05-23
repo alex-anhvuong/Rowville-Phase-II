@@ -1,1 +1,6 @@
-<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lock" role="img" xmlns="http://www.w3.org/2000/svg" width="448" height="512"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/><g class="currentLayer" style=""><title>Layer 1</title><path fill="#ffffff" d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z" id="svg_1" class="selected" fill-opacity="1"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50pt" height="50pt" viewBox="0 0 50 50" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 44.644531 21.875 L 41.964844 21.875 L 41.964844 14.84375 C 41.964844 6.660156 34.351562 0 25 0 C 15.648438 0 8.035156 6.660156 8.035156 14.84375 L 8.035156 21.875 L 5.355469 21.875 C 2.398438 21.875 0 23.976562 0 26.5625 L 0 45.3125 C 0 47.898438 2.398438 50 5.355469 50 L 44.644531 50 C 47.601562 50 50 47.898438 50 45.3125 L 50 26.5625 C 50 23.976562 47.601562 21.875 44.644531 21.875 Z M 33.035156 21.875 L 16.964844 21.875 L 16.964844 14.84375 C 16.964844 10.96875 20.570312 7.8125 25 7.8125 C 29.429688 7.8125 33.035156 10.96875 33.035156 14.84375 Z M 33.035156 21.875 "/>
+</g>
+</svg>

@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="seedling" role="img" width="512" height="512"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/><g class="currentLayer" style=""><title>Layer 1</title><path fill="#ffffff" d="M64 96H0c0 123.7 100.3 224 224 224v144c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V320C288 196.3 187.7 96 64 96zm384-64c-84.2 0-157.4 46.5-195.7 115.2 27.7 30.2 48.2 66.9 59 107.6C424 243.1 512 147.9 512 32h-64z" id="svg_1" class="selected" fill-opacity="1"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50pt" height="50pt" viewBox="0 0 50 50" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 6.25 9.375 L 0 9.375 C 0 21.453125 9.796875 31.25 21.875 31.25 L 21.875 45.3125 C 21.875 46.171875 22.578125 46.875 23.4375 46.875 L 26.5625 46.875 C 27.421875 46.875 28.125 46.171875 28.125 45.3125 L 28.125 31.25 C 28.125 19.171875 18.328125 9.375 6.25 9.375 Z M 43.75 3.125 C 35.527344 3.125 28.378906 7.664062 24.640625 14.375 C 27.34375 17.324219 29.34375 20.90625 30.398438 24.882812 C 41.40625 23.742188 50 14.445312 50 3.125 Z M 43.75 3.125 "/>
+</g>
+</svg>
