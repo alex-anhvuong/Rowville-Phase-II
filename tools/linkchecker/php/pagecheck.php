@@ -33,18 +33,21 @@
             
             echo "<h2>".$stepContent->title."</h2>";
             
+            echo "<table><tr><th>URL</th><th>Status</th></tr>";
             foreach ($stepContent->contentList as $content) {
                 if ($content->isLink) {
+                    echo "<tr><td>";
                     echo $content->contentData[0];
-                    echo "<br>";
+                    echo "</td><td>";
                     if (urlExists($content->contentData[0])) {
                         echo "Pass";
                     } else {
                         echo "BROKEN";
                     }
-                    echo "<br><br>";
+                    echo "</td></tr>";
                 }
             }
+            echo "</table>";
         }
     }
 
