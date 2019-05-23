@@ -45,20 +45,6 @@
         }
     }
 
-    // Check each of the links within the app.
-    function testCheckTool() {
-        $testURLs = array("http://matnorman.com", "http://jldsdjsfhdsljfds.com", "http://rowvillenlc.org.au");
-
-        foreach ($testURLs as $testURL) {
-            echo "<h2>$testURL</h2>";
-            if (urlExists($testURL)) {
-                echo "Pass";
-            } else {
-                echo "BROKEN";
-            }
-        }
-    }
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -70,8 +56,8 @@
 <?php
     // Long process starts here
     $stepsContent = json_decode($_POST['stepsContent']);
-    // runCheckTool($stepsContent);
-    testCheckTool();
+    runCheckTool($stepsContent);
+    // testCheckTool();
 ?>
 </body>
 </html>
