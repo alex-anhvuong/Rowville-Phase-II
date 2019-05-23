@@ -5,23 +5,21 @@
     </head>
     <body>
         <script type="text/javascript">
-            // for (let counter = 0; counter < stepsContent.length; counter++) {
-            //     let stepContent = stepsContent[counter];
-
-            //     for (const contentListItems of stepContent.contentList) {
-            //         console.log(contentListItems.isLink);
-            //         if (contentListItems.isLink) {
-            //             console.log(checkUrl(contentListItems.contentData[0]));
-            //         }
-            //     }
-            // }
-
-            var jsonStepContent = JSON.stringify(stepsContent);
+            function setValue(){
+                document.stepContentForm.stepsContent.value = JSON.stringify(stepsContent);
+                document.forms["stepContentForm"].submit();
+            }
         </script>
 
-        <?php
-            var_dump(json_decode($jsonStepContent));
-        ?>
+
+        <h1>ThinkBiz Link Check Tool</h1>
+        <p>This tool has been developed to check if any of the links within the thinkbiz web application are broken.</p>
+        <p><span style="font-weight:bold">Warning: </span>This tool will take a considerable amount of time to run.</p>
+        
+        <form id="stepContentForm" name="stepContentForm" method="post" action="php/pagecheck.php">
+            <input type="hidden" name="stepsContent" id="stepsContent" value="">
+            <button type="submit" onclick="setValue()" style="font-size:1.2em;padding:5px;">Click to Check Links</button>
+        </form>
 
     </body>
 </html>
