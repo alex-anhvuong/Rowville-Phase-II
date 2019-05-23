@@ -16,10 +16,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-------------------loading scripts for the application---------------------------->
-    <link rel="stylesheet" type="text/css" href="../../style/addtohomescreen.css">
-    <script src="../../src/addtohomescreen.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/addtohomescreen/style/addtohomescreen.css">
+    <script src="js/addtohomescreen/src/addtohomescreen.js"></script>
     <script>
-    addToHomescreen();
+      addToHomescreen();
     </script>
     <script type="text/javascript" src="Content/StepsContent.js"></script>
     <script type="text/javascript" src="js/HomePage.js"></script>
