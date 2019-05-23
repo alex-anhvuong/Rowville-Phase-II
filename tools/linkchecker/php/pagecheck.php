@@ -4,7 +4,11 @@
         // File headers version
         $file_headers = @get_headers($url);
         var_dump($file_headers[0]);
-        if (!$file_headers || $file_headers[0] == 'HTTP/1.1 404 Not Found') return false; return true;
+        if (!$file_headers || $file_headers[0] == 'HTTP/1.1 404 Not Found') {
+            return false; 
+        } else {
+            return true; 
+        }
 
         // // CURL Version
         // $timeout = 10;
@@ -47,7 +51,11 @@
 
         foreach ($testURLs as $testURL) {
             echo "<h2>$testURL</h2>";
-            if (urlExists($testURL)) echo "Pass"; echo "BROKEN";
+            if (urlExists($testURL)) {
+                echo "Pass";
+            } else {
+                echo "BROKEN";
+            }
         }
     }
 
