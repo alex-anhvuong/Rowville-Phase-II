@@ -31,23 +31,23 @@
     function runCheckTool($stepsContentJson) {
         foreach ($stepsContentJson as $stepContent) {
             
-            echo "<h2>".$stepContent->title."</h2>";
+            echo "<h2>".$stepContent->stepName."</h2><h3>\"".$stepContent->title."\"</h3>";
             
             echo "<table><tr><th>URL</th><th>Status</th></tr>";
             foreach ($stepContent->contentList as $content) {
                 if ($content->isLink) {
-                    echo "<tr><td>";
+                    echo "<tr><td class='url'>";
                     echo $content->contentData[0];
-                    echo "</td><td>";
+                    echo "</td>";
                     if (urlExists($content->contentData[0])) {
-                        echo "Pass";
+                        echo "<td style='background-color:#c9f9c0' class='status'>PASS</td>";
                     } else {
-                        echo "BROKEN";
+                        echo "<td style='background-color:#ff8787' class='status'>BROKEN</td>";
                     }
-                    echo "</td></tr>";
+                    echo "</tr>";
                 }
             }
-            echo "</table>";
+            echo "</table><hr />";
         }
     }
 
@@ -55,12 +55,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Page Status</title>
+
+    <style>
+        body {
+            font-size: 1.2em;
+            text-align: center;
+        }
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        table, td, th {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 5px;
+            text-align: center;
+        }
+        th {
+            height: 25px;
+            font-size: 1.3em;
+        }
+        .url {
+            width: 60%;
+        }
+        .status {
+            width: 15%;
+        }
+        hr {
+            width: 80%;
+            margin-top: 80px
+        }
+        @media only screen and (max-width: 768px) {
+            body {
+            font-size: 2em;
+            }
+            table {
+                width: 95%;
+                border-collapse: collapse;
+                margin: 0 auto;
+            }
+
+            table, td, th {
+                border: 1px solid black;
+            }
+            th, td {
+                padding: 5px;
+                text-align: center;
+            }
+            th {
+                height: 25px;
+                font-size: 2.5em;
+            }
+            .url {
+                width: 80%;
+            }
+            .status {
+                width: 20%;
+            }
+            hr {
+                width: 80%;
+                margin-top: 80px
+            }
+        }
+    </style>
 </head>
 <body>
-
 <?php
-    // Long process starts here
     $stepsContent = json_decode($_POST['stepsContent']);
     runCheckTool($stepsContent);
 ?>
