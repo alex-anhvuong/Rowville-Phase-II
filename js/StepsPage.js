@@ -72,12 +72,12 @@ function loadStepsData(stepName, numberOfStep) {
             }
             break;
           } else if (contentObj.isLink) {
-            let paraTag = createElement (contentObj.tagType, contentData[k], "", "");
+            //let paraTag = createElement (contentObj.tagType, contentData[k], "", "");
 
-            paraTag.href = contentData[k];
-            paraTag.target = "_blank";
-            levelDiv.appendChild (paraTag);
-            break;
+            //paraTag.href = contentData[k];
+            //paraTag.target = "_blank";
+            ////levelDiv.appendChild (paraTag);
+            //break;
 
           } else if (contentObj.isUnderLine) {
             let paraTag = createElement (contentObj.tagType, contentData[k], "", "click_below");
@@ -122,7 +122,7 @@ function loadStepsData(stepName, numberOfStep) {
 function createButtonAndreturnDiv (numberOfStep) {
 
   let buttonWrapper = createElement("div", "", "", "btn-container");
-  
+
   if (numberOfStep == 1) {
     let nextButton = createElement("button", "Next Step", "", "nextButtonClassFp");
     nextButton.onclick = function() {nextButtonAction()};

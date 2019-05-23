@@ -177,7 +177,7 @@ let stepsContent = [
         isLink: true,
         isList: false
       },
-      {
+      /*{
         isVideoLink: false,
         contentData: ["",""],
         style: "None",
@@ -187,6 +187,7 @@ let stepsContent = [
         isLink: false,
         isList: false
       }
+      */
     ]
   },
   {
@@ -272,7 +273,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["To help you choose a business structure, Business Victoria has provided a small quiz. Refer here to take the quiz and help to decide on the structure that suits you best: "],
+        contentData: ["To help you choose a business structure, Business Victoria has provided a small quiz. Refer here to take the quiz and help to decide on the structure that suits you best. "],
         style: "None",
         tagType: "p",
         isBold: false,
@@ -283,6 +284,18 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
+        contentData: ["click here"],
+        style: "None",
+        tagType: "a",
+        href: "https://fs2.formsite.com/diirdwebteam3/form263/index.html",
+        isBold: false,
+        isUnderLine: true,
+        isLink: false,
+        isList: false,
+        className: "click_below"
+      },
+      {
+        isVideoLink: false,
         contentData: ["https://fs2.formsite.com/diirdwebteam3/form263/index.html"],
         style: "None",
         tagType: "a",
@@ -290,8 +303,8 @@ let stepsContent = [
         isUnderLine: false,
         isLink: true,
         isList: false
-      },
-      {
+      }
+      /*{
         isVideoLink: false,
         contentData: ["",""],
         style: "None",
@@ -301,6 +314,7 @@ let stepsContent = [
         isLink: false,
         isList: false
       },
+      */
     ]
   },
   //content stored for step 3
@@ -374,7 +388,7 @@ let stepsContent = [
         isList: false,
         className: "click_below"
       },
-      {
+      /*{
         isVideoLink: false,
         contentData: [" "],
         style: "None",
@@ -385,6 +399,7 @@ let stepsContent = [
         isList: false,
         className: "low_spaces_para"
       },
+      */
       {
         isVideoLink: false,
         contentData: ["https://abr.gov.au/For-Business,-Super-funds---Charities/Applying-for-an-ABN/"],
@@ -405,6 +420,7 @@ let stepsContent = [
         isLink: false,
         isList: false
       },
+
       {
         isVideoLink: false,
         contentData: ["Register your business name"],
@@ -492,7 +508,7 @@ let stepsContent = [
         isList: false,
         className: "click_below"
       },
-      {
+      /*{
         isVideoLink: false,
         contentData: [" "],
         style: "None",
@@ -503,6 +519,7 @@ let stepsContent = [
         isList: false,
         className: "low_spaces_para"
       },
+      */
       {
         isVideoLink: false,
         contentData: ["https://www.asic.gov.au/for-business/registering-a-business-name/"],
@@ -513,7 +530,7 @@ let stepsContent = [
         isLink: true,
         isList: false
       },
-      {
+      /*{
         isVideoLink: false,
         contentData: ["",""],
         style: "None",
@@ -523,6 +540,7 @@ let stepsContent = [
         isLink: false,
         isList: false
       },
+      */
     ]
   },
   //content stored for Step 4
@@ -651,7 +669,7 @@ let stepsContent = [
         isList: false,
         className: "click_below"
       },
-      {
+      /*{
         isVideoLink: false,
         contentData: [" "],
         style: "None",
@@ -662,6 +680,7 @@ let stepsContent = [
         isList: false,
         className: ""
       },
+      */
       {
         isVideoLink: false,
         contentData: ["https://www.business.gov.au/planning/business-plans/writing-a-business-plan/start-up-costing-of-your-business"],
@@ -683,6 +702,7 @@ let stepsContent = [
         isList: false,
         className: ""
       },
+
       {
         isVideoLink: false,
         contentData: ["To read a useful case study of how someone calculated their start up businesses costs "],
@@ -1250,7 +1270,7 @@ let stepsContent = [
         isList: true,
         className: "low_spaces_para"
       },
-      {
+      /*{
         isVideoLink: false,
         contentData: [""],
         style: "None",
@@ -1259,7 +1279,7 @@ let stepsContent = [
         isUnderLine: false,
         isLink: false,
         isList: false
-      },
+      },*/
       {
         isVideoLink: false,
         contentData: ["For more information if any of the above protections may be relevant for your business "],
@@ -1282,7 +1302,7 @@ let stepsContent = [
         isList: false,
         className: "click_below"
       },
-      {
+      /*{
         isVideoLink: false,
         contentData: [" "],
         style: "None",
@@ -1292,7 +1312,7 @@ let stepsContent = [
         isLink: false,
         isList: false,
         className: "low_spaces_para"
-      },
+      },*/
       {
         isVideoLink: false,
         contentData: ["https://www.austrade.gov.au/International/Invest/Guide-to-investing/Running-a-business/Understanding-Australian-business-regulation/Australian-Intellectual-Property-laws"],
@@ -1305,7 +1325,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
@@ -1345,7 +1365,7 @@ let stepsContent = [
       },
       {
       isVideoLink: false,
-      contentData: ["Having a website for your business is not compulsory,  however, having a website is a very popular way of marketing your business. It helps people to find out what your business does and what is has to offer, it can also help to make your business seem more professional."],
+      contentData: ["Having a website for your business is not compulsory,  however, having a website is a very popular way of marketing your business. It helps people to find out what your business does and what it has to offer, it can also help to make your business seem more professional."],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1374,6 +1394,18 @@ let stepsContent = [
       isList: false
       },
       {
+        isVideoLink: false,
+        contentData: ["website."],
+        style: "None",
+        tagType: "a",
+        href: "https://www.business.gov.au",
+        isBold: false,
+        isUnderLine: true,
+        isLink: false,
+        isList: false,
+        className: "click_below"
+      },
+      {
       isVideoLink: false,
       contentData: ["https://www.business.gov.au"],
       style: "None",
@@ -1383,7 +1415,7 @@ let stepsContent = [
       isLink: true,
       isList: false
       },
-      {
+      /*{
         isVideoLink: false,
         contentData: [" website."],
         style: "None",
@@ -1392,7 +1424,7 @@ let stepsContent = [
         isUnderLine: false,
         isLink: false,
         isList: false
-      },
+      }, */
       {
         isVideoLink: false,
         contentData: [" "],
@@ -1438,14 +1470,26 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["For more important information on domain names click on the link below."],
+        contentData: ["For more important information on domain names "],
         style: "None",
-        tagType: "p",
+        tagType: "a",
         isBold: false,
         isUnderLine: false,
         isLink: false,
         isList: false,
         className: "low_spaces_para"
+      },
+      {
+        isVideoLink: false,
+        contentData: ["click on the link below."],
+        style: "None",
+        tagType: "a",
+        href: "https://www.business.gov.au/Marketing/Websites",
+        isBold: false,
+        isUnderLine: true,
+        isLink: false,
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -1470,14 +1514,26 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["To register your domain name, click here."],
+        contentData: ["To register your domain name "],
         style: "None",
-        tagType: "p",
+        tagType: "a",
         isBold: false,
         isUnderLine: false,
         isLink: false,
         isList: false,
         className: "low_spaces_para"
+      },
+      {
+        isVideoLink: false,
+        contentData: ["click here."],
+        style: "None",
+        tagType: "a",
+        href: "https://www.business.gov.au/Marketing/Websites/Register-a-website-name",
+        isBold: false,
+        isUnderLine: true,
+        isLink: false,
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -1491,7 +1547,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
@@ -1605,7 +1661,7 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: [" "],
+      contentData: [""],
       style: "None",
       tagType: "p",
       isBold: false,
@@ -1623,7 +1679,7 @@ let stepsContent = [
       isLink: true,
       isList: false
     },
-    {
+    /*{
       isVideoLink: false,
       contentData: [" "],
       style: "None",
@@ -1633,6 +1689,7 @@ let stepsContent = [
       isLink: false,
       isList: false
     },
+    */
     {
       isVideoLink: false,
       contentData: ["To go straight to the Marketing template "],
@@ -1655,7 +1712,7 @@ let stepsContent = [
       isList: false,
       className: "click_below"
     },
-    {
+    /*{
       isVideoLink: false,
       contentData: [" "],
       style: "None",
@@ -1664,7 +1721,7 @@ let stepsContent = [
       isUnderLine: false,
       isLink: false,
       isList: false
-    },
+    },*/
     {
       isVideoLink: false,
       contentData: ["http://www.business.vic.gov.au/__data/assets/word_doc/0007/1009636/Marketing-Plan-Template.docx"],
@@ -1796,9 +1853,9 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["It is important to know that in Australia we have The Australian Consumer Law that regulates the ways in which we can advertise and to ensure that our advertising is fair and honest. To read more about these laws click below."],
+      contentData: ["It is important to know that in Australia we have The Australian Consumer Law that regulates the ways in which we can advertise and to ensure that our advertising is fair and honest. To read more about these laws "],
       style: "None",
-      tagType: "p",
+      tagType: "a",
       isBold: false,
       isUnderLine: false,
       isLink: false,
@@ -1816,7 +1873,19 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["",""],
+      contentData: [" click here."],
+      style: "None",
+      tagType: "a",
+      href: "https://www.accc.gov.au/business/advertising-promoting-your-business",
+      isBold: false,
+      isUnderLine: true,
+      isLink: false,
+      isList: false,
+      className: "click_below"
+    },
+    {
+      isVideoLink: false,
+      contentData: [""],
       style: "None",
       tagType: "br",
       isBold: false,
@@ -1866,9 +1935,32 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: ["The even better news is that most of the help and support available can be found locally in your area, is low cost and in some cases even free.","A great place to start is with your closest Learn Local training centre. Learn Local organisations offer government subsidised short courses and workshops. With more Learn Local’s across Victoria than there is McDonald’s your sure to find one near you. Click below to find your nearest Learn Local."],
+      contentData: ["The even better news is that most of the help and support available can be found locally in your area, is low cost and in some cases even free.","A great place to start is with your closest Learn Local training centre. Learn Local organisations offer government subsidised short courses and workshops. With more Learn Local’s across Victoria than there is McDonald’s your sure to find one near you. "],
       style: "None",
-      tagType: "p",
+      tagType: "span",
+      isBold: false,
+      isUnderLine: false,
+      isLink: false,
+      isList: false,
+      className: "low_spaces_para"
+    },
+    {
+      isVideoLink: false,
+      contentData: ["Click below"],
+      style: "None",
+      tagType: "a",
+      isBold: false,
+      isUnderLine: true,
+      href: "http://learnlocal.org.au/",
+      isLink: false,
+      isList: false,
+      className: "click_below"
+    },
+    {
+      isVideoLink: false,
+      contentData: [" to find your nearest Learn Local."],
+      style: "None",
+      tagType: "span",
       isBold: false,
       isUnderLine: false,
       isLink: false,
@@ -1918,7 +2010,29 @@ let stepsContent = [
     },
     {
       isVideoLink: false,
-      contentData: [" Knoxbiz can help to find local low cost business workshops, courses and information."],
+      contentData: [" Knoxbiz can "],
+      style: "None",
+      tagType: "span",
+      isBold: false,
+      isUnderLine: false,
+      isLink: false,
+      isList: false
+    },
+    {
+      isVideoLink: false,
+      contentData: ["help"],
+      style: "None",
+      tagType: "a",
+      isBold: false,
+      isUnderLine: true,
+      href: "https://www.knoxbiz.com.au/Pub/pStart.asp",
+      isLink: false,
+      isList: false,
+      className: "click_below"
+    },
+    {
+      isVideoLink: false,
+      contentData: [" to find local low cost business workshops, courses and information."],
       style: "None",
       tagType: "span",
       isBold: false,
@@ -2018,13 +2132,25 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["As we have a great deal of legislation governing how we employ, manage, pay and dismiss staff in Australia, we want to make sure we get it right.  The Fair Work Act 2009 is the law that regulates nearly all areas of the workplace in regards to employing staff.  The National Employment Standards (NES) are the minimum standards that you will need to provide to your staff under this law.  The Fair work website "],
+        contentData: ["As we have a great deal of legislation governing how we employ, manage, pay and dismiss staff in Australia, we want to make sure we get it right.  The Fair Work Act 2009 is the law that regulates nearly all areas of the workplace in regards to employing staff.  The National Employment Standards (NES) are the minimum standards that you will need to provide to your staff under this law. "],
         style: "None",
         tagType: "span",
         isBsold: false,
         isUnderLine: false,
         isLink: false,
         isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["The Fair work website"],
+        style: "None",
+        tagType: "a",
+        isBold: false,
+        isUnderLine: true,
+        href: "https://www.fairwork.gov.au",
+        isLink: false,
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -2048,7 +2174,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
@@ -2078,9 +2204,9 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [" "],
         style: "None",
-        tagType: "br",
+        tagType: "p",
         isBold: false,
         isUnderLine: false,
         isLink: false,
@@ -2088,7 +2214,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["To read the guide to hiring new staff"],
+        contentData: ["To read the guide to hiring new staff "],
         style: "None",
         tagType: "span",
         isBold: false,
@@ -2097,6 +2223,18 @@ let stepsContent = [
         isList: false
       },
       {
+        isVideoLink: false,
+        contentData: ["click on the link below."],
+        style: "None",
+        tagType: "a",
+        isBold: false,
+        isUnderLine: true,
+        href: "https://www.fairwork.gov.au/ArticleDocuments/712/a-guide-to-hiring-new-employees.docx.aspx",
+        isLink: false,
+        isList: false,
+        className: "click_below"
+      },
+      /*{
         isVideoLink: false,
         contentData: [" click on the link below."],
         style: "None",
@@ -2105,7 +2243,7 @@ let stepsContent = [
         isUnderLine: false,
         isLink: false,
         isList: false
-      },
+      },*/
       {
         isVideoLink: false,
         contentData: [""],
@@ -2128,7 +2266,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
@@ -2148,7 +2286,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: [" hiring an apprentice"],
+        contentData: [" hiring an apprentice "],
         style: "None",
         tagType: "span",
         isBold: true,
@@ -2158,7 +2296,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: [" click here."],
+        contentData: ["click here."],
         style: "None",
         tagType: "a",
         isBold: false,
@@ -2190,7 +2328,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
@@ -2220,7 +2358,29 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: [" you can use the wage calculator provided by Australian Fair Work."],
+        contentData: [" you can use the "],
+        style: "None",
+        tagType: "span",
+        isBold: false,
+        isUnderLine: false,
+        isLink: false,
+        isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["wage calculator"],
+        style: "None",
+        tagType: "a",
+        isBold: false,
+        isUnderLine: true,
+        href: "https://calculate.fairwork.gov.au/FindYourAward",
+        isLink: false,
+        isList: false,
+        className: "click_below"
+      },
+      {
+        isVideoLink: false,
+        contentData: [" provided by Australian Fair Work."],
         style: "None",
         tagType: "span",
         isBold: false,
@@ -2250,7 +2410,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
@@ -2280,13 +2440,25 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["you may need to make on behalf of your employees.  To find out if you will be required to make these payments click on the link below."],
+        contentData: ["you may need to make on behalf of your employees.  To find out if you will be required to make these payments "],
         style: "None",
         tagType: "span",
         isBold: false,
         isUnderLine: false,
         isLink: false,
         isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["click on the link below."],
+        style: "None",
+        tagType: "a",
+        isBold: false,
+        href: "https://www.fairwork.gov.au/pay/tax-and-superannuation",
+        isUnderLine: true,
+        isLink: false,
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -2310,7 +2482,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
@@ -2350,9 +2522,9 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
-        tagType: "br",
+        tagType: "p",
         isBold: false,
         isUnderLine: false,
         isLink: false,
@@ -2412,7 +2584,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
@@ -2472,13 +2644,25 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["For more information on workers compensation insurance click here."],
+        contentData: ["For more information on workers compensation insurance "],
         style: "None",
         tagType: "span",
         isBold: false,
         isUnderLine: false,
         isLink: false,
         isList: false
+      },
+      {
+        isVideoLink: false,
+        contentData: ["click here."],
+        style: "None",
+        tagType: "a",
+        isBold: false,
+        href: "https://www.fairwork.gov.au/leave/workers-compensation",
+        isUnderLine: true,
+        isLink: false,
+        isList: false,
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -2502,7 +2686,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
@@ -2642,7 +2826,7 @@ let stepsContent = [
       isLink: true,
       isList: false
       },
-      {
+      /*{
         isVideoLink: false,
         contentData: [" "],
         style: "None",
@@ -2651,7 +2835,7 @@ let stepsContent = [
         isUnderLine: false,
         isLink: false,
         isList: false
-      },
+      },*/
       {
         isVideoLink: false,
         contentData: ["You can also find more really helpful information to assist with registrations, permits and licences by "],
@@ -2696,7 +2880,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
@@ -2830,14 +3014,15 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["Local council information "],
+        contentData: ["Local council information"],
         style: "None",
-        tagType: "p",
-        isBold: true,
-        isUnderLine: false,
+        tagType: "a",
+        isBold: false,
+        isUnderLine: true,
+        href: "https://knowyourcouncil.vic.gov.au/",
         isLink: false,
         isList: false,
-        className: "low_spaces_para"
+        className: "click_below"
       },
       {
         isVideoLink: false,
@@ -2851,7 +3036,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
@@ -2863,13 +3048,25 @@ let stepsContent = [
         isVideoLink: false,
         contentData: ["Planning and permits"],
         style: "None",
+        tagType: "a",
+        isBold: false,
+        isUnderLine: true,
+        href: "https://www.planning.vic.gov.au/permits-and-applications/do-i-need-a-permit",
+        isLink: false,
+        isList: false,
+        className: "click_below"
+      },
+      /*{
+        isVideoLink: false,
+        contentData: ["Planning and permits"],
+        style: "None",
         tagType: "p",
         isBold: true,
         isUnderLine: false,
         isLink: false,
         isList: false,
         className: "low_spaces_para"
-      },
+      },*/
       {
         isVideoLink: false,
         contentData: ["https://www.planning.vic.gov.au/permits-and-applications/do-i-need-a-permit"],
@@ -2882,7 +3079,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
@@ -2894,13 +3091,25 @@ let stepsContent = [
         isVideoLink: false,
         contentData: ["Building"],
         style: "None",
+        tagType: "a",
+        isBold: false,
+        isUnderLine: true,
+        href: "https://consumer.etoolbox.buildingcommission.com.au/Pages/Search.aspx",
+        isLink: false,
+        isList: false,
+        className: "click_below"
+      },
+      /*{
+        isVideoLink: false,
+        contentData: ["Building"],
+        style: "None",
         tagType: "p",
         isBold: true,
         isUnderLine: false,
         isLink: false,
         isList: false,
         className: "low_spaces_para"
-      },
+      },*/
       {
         isVideoLink: false,
         contentData: ["https://consumer.etoolbox.buildingcommission.com.au/Pages/Search.aspx"],
@@ -2913,7 +3122,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
@@ -2925,13 +3134,25 @@ let stepsContent = [
         isVideoLink: false,
         contentData: ["Safety"],
         style: "None",
+        tagType: "a",
+        isBold: false,
+        isUnderLine: true,
+        href: "http://www.worksafe.vic.gov.au/",
+        isLink: false,
+        isList: false,
+        className: "click_below"
+      },
+    /*  {
+        isVideoLink: false,
+        contentData: ["Safety"],
+        style: "None",
         tagType: "p",
         isBold: true,
         isUnderLine: false,
         isLink: false,
         isList: false,
         className: "low_spaces_para"
-      },
+      },*/
       {
         isVideoLink: false,
         contentData: ["http://www.worksafe.vic.gov.au/"],
@@ -2944,7 +3165,7 @@ let stepsContent = [
       },
       {
         isVideoLink: false,
-        contentData: ["",""],
+        contentData: [""],
         style: "None",
         tagType: "br",
         isBold: false,
