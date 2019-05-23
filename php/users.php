@@ -3,15 +3,15 @@
 
     class Users Extends Database {
 
-        function createUser($email = "", $pass = "", $fname = "", $lname = "") {
+        public function createUser($email = "", $pass = "", $fname = "", $lname = "") {
             
         }
 
-        function updateUser($email = "", $fname = "", $lname = "") {
+        public function updateUser($email = "", $fname = "", $lname = "") {
 
         }
 
-        function updatePassword($pass = "") {
+        public function updatePassword($pass = "") {
             
         }
 

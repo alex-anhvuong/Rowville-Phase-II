@@ -32,7 +32,12 @@
         }
 
         private function _createAdminUser() {
+            // Generate admin user
 
+            // $sql = "INSERT INTO users(firstname, lastname, email, passhash) values (:firstname, :lastname, :email, :passhash);";
+
+            // $stmt = $this->_dbconn->prepare($sql);
+            // $stmt->execute($params);
         }
     }
 
