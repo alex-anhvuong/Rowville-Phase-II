@@ -3,7 +3,6 @@
     function urlExists($url) {
         // File headers version
         $file_headers = @get_headers($url);
-        var_dump($file_headers[0]);
         if (!$file_headers || $file_headers[0] == 'HTTP/1.1 404 Not Found') {
             return false; 
         } else {
@@ -38,7 +37,11 @@
                 if ($content->isLink) {
                     echo $content->contentData[0];
                     echo "<br>";
-                    if (urlExists($content->contentData[0])) echo "Pass"; echo "BROKEN";
+                    if (urlExists($content->contentData[0])) {
+                        echo "Pass";
+                    } else {
+                        echo "BROKEN";
+                    }
                     echo "<br><br>";
                 }
             }
@@ -57,7 +60,6 @@
     // Long process starts here
     $stepsContent = json_decode($_POST['stepsContent']);
     runCheckTool($stepsContent);
-    // testCheckTool();
 ?>
 </body>
 </html>
